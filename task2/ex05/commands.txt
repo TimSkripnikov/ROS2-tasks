@@ -1,0 +1,32 @@
+ros2 node list
+
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+Remapping позволяет переназначать значения по умолчанию для свойств узла, таких как:
+имя узла (node name),
+имена топиков (topic names),
+имена сервисов (service names),
+и другие, на пользовательские значения.
+
+Переназначить имя узла:
+ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+
+Узнать больше информации об узлах:
+ros2 node info <node_name>
+
+Команда ros2 node info возвращает список:
+
+подписчиков (Subscribers),
+
+публикаторов (Publishers),
+
+сервисов (Service Servers и Clients),
+
+действий (Action Servers и Clients).
+
+Иными словами, это отображение всех ROS graph connections,
+с которыми взаимодействует данный узел.
+
+Задание:
+ros2 run turtlesim turtlesim_node --ros-args --remap __node:=artem_turtle

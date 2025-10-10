@@ -1,0 +1,6 @@
+ros2 pkg prefix ros2topic
+echo $(ros2 pkg prefix ros2topic) > package_path_ros2topic.txt
+
+ros2 pkg prefix action_tutorials_py
+echo $(ros2 pkg executables action_tutorials_py) > list_exec_actio
+n_tutorials.txt  

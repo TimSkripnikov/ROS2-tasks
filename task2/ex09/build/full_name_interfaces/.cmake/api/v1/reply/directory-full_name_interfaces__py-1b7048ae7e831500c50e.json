@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "full_name_interfaces__py",
+		"source" : "/home/artem/Documents/3_course/robotics/task2/ex09/build/full_name_interfaces/full_name_interfaces__py"
+	}
+}

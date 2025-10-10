@@ -1,0 +1,19 @@
+cd ~/Documents/3_course/robotics/task2/ex10
+
+colcon build --packages-select text_to_cmd_vel
+
+source ~/Documents/3_course/robotics/task2/ex10/install/setup.bash
+
+ros2 run turtlesim turtlesim_node
+
+ros2 run text_to_cmd_vel text_to_cmd_vel_node
+
+
+
+ros2 topic pub /cmd_text std_msgs/msg/String "data: 'move_forward'" --once
+
+ros2 topic pub /cmd_text std_msgs/msg/String "data: 'turn_left'"
+
+ros2 topic pub /cmd_text std_msgs/msg/String "data: 'turn_right'"
+
+ros2 topic pub /cmd_text std_msgs/msg/String "data: 'move_backward'" --once

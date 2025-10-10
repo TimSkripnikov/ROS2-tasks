@@ -1,0 +1,10 @@
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/uninstall.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/first_node.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/test.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/edit_cache.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/list_install_components.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/install.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/install/local.dir
+/home/artem/Documents/3_course/robotics/task2/ex03/build/my_package/CMakeFiles/install/strip.dir

@@ -1,0 +1,18 @@
+Создание пакета:
+ros2 pkg create --build-type ament_cmake --dependencies std_msgs rclpy rclcpp --node-name first_node my_package
+
+--build-type ament_cmake — это стандартная система сборки ROS 2 для C++ пакетов
+--build-type ament_python
+
+Сборка:
+
+colcon build
+
+colcon build --packages-select my_package
+
+pip install catkin_pkg
+
+Проверка:
+
+ros2 run my_package first_node
+

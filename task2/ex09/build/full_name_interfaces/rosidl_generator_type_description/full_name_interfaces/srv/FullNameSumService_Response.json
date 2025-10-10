@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "full_name_interfaces/srv/FullNameSumService_Response",
+      "fields": [
+        {
+          "name": "full_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "full_name_interfaces/srv/FullNameSumService_Response",
+      "hash_string": "RIHS01_b1322110ecc746dd69f8deca368df57499e3fb97138a8515ec7162b50f9bf37e"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-20645df5674cde567b21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "full_name_interfaces__py",
+					"jsonFile" : "directory-full_name_interfaces__py-1b7048ae7e831500c50e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/artem/Documents/3_course/robotics/task2/ex09/build/full_name_interfaces/full_name_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "full_name_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_full_name_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_full_name_interfaces_egg-1e696dcbdade31485fad.json",
+					"name" : "ament_cmake_python_build_full_name_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_full_name_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_full_name_interfaces-81fcf30dcd4a55d43caa.json",
+					"name" : "ament_cmake_python_copy_full_name_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces-9d9ed5feacdafa81da75.json",
+					"name" : "full_name_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__cpp-1919d7bb5370123e93d7.json",
+					"name" : "full_name_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "full_name_interfaces__py::@06c563b77dbc2fa146b8",
+					"jsonFile" : "target-full_name_interfaces__py-b2ed1582c3f26ff89d45.json",
+					"name" : "full_name_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_generator_c-e93d3e4bf75c8897a5bf.json",
+					"name" : "full_name_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_generator_py-9fb7f26000c231f24822.json",
+					"name" : "full_name_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_generator_type_description-95d4eb040498417c64fd.json",
+					"name" : "full_name_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_c-cc873faa6a70d3648b37.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_cpp-865c70501bf2745ca398.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_fastrtps_c-52b4b9387e9134f5ae95.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_fastrtps_cpp-a155f50eff42418675f5.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_introspection_c-6053c834fe1fd12c5a18.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces__rosidl_typesupport_introspection_cpp-b4bc856ad6374c4c289e.json",
+					"name" : "full_name_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces_s__rosidl_typesupport_c-7c4e4b3b4e037c0e593b.json",
+					"name" : "full_name_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces_s__rosidl_typesupport_fastrtps_c-14950159f4883b3347bb.json",
+					"name" : "full_name_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces_s__rosidl_typesupport_introspection_c-7cd8952b888290dc83af.json",
+					"name" : "full_name_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "full_name_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_name_interfaces_uninstall-7364cc4028ec06b910c6.json",
+					"name" : "full_name_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c14251d055ea8f3551e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/artem/Documents/3_course/robotics/task2/ex09/build/full_name_interfaces",
+		"source" : "/home/artem/Documents/3_course/robotics/task2/ex09/full_name_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

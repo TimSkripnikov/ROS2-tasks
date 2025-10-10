@@ -1,0 +1,7 @@
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 full_name_interfaces
+
+mkdir msg srv
+
+colcon build --packages-select full_name_interfaces
+
+colcon edit full_name_interfaces FullNameSumService.srv

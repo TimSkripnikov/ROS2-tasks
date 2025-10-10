@@ -1,0 +1,105 @@
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+выведет список всех активных сервисов, доступных в текущей системе ROS 2:
+ros2 service list
+
+Чтобы узнать тип конкретного сервиса, используется команда:
+ros2 service type <service_name>
+
+Пример — посмотрим тип сервиса /clear из turtlesim:
+ros2 service type /clear
+
+Можно сразу увидеть все сервисы с их типами,
+добавив опцию --show-types (или сокращённо -t) к команде list:
+ros2 service list -t
+
+
+Если тебе нужно найти все сервисы определённого типа,
+используй команду:
+ros2 service find <type_name>
+
+Пример — найдем все сервисы типа std_srvs/srv/Empty:
+ros2 service find std_srvs/srv/Empty
+
+
+Чтобы вызвать сервис вручную из командной строки, нужно знать,
+какие аргументы (поля запроса) он принимает:
+ros2 interface show <type_name>
+
+Пример 1 — для сервиса /clear:
+ros2 interface show std_srvs/srv/Empty
+
+
+можно вызвать сервис вручную с помощью команды:
+ros2 service call <service_name> <service_type> <arguments>
+
+1. Тип Empty (например /clear) не требует аргументов,
+поэтому команду можно вызвать:
+ros2 service call /clear std_srvs/srv/Empty
+
+2. Теперь создадим новую черепаху с помощью сервиса /spawn.
+Мы знаем, что его тип — turtlesim/srv/Spawn,
+и он требует аргументы x, y, theta, name.
+Аргументы в ROS2 нужно указывать в YAML-синтаксисе:
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
+
+
+Чтобы увидеть все параметры, принадлежащие активным нодам:
+ros2 param list
+
+Чтобы узнать тип и значение конкретного параметра, используется команда:
+ros2 param get <node_name> <param_name>
+ros2 param get /turtlesim background_r
+
+
+Чтобы узнать тип и текущее значение параметра ноды:
+ros2 param get <node_name> <parameter_name>
+
+Пример — проверим параметр background_g ноды /turtlesim:
+ros2 param get /turtlesim background_g
+
+
+Чтобы изменить значение параметра во время работы ноды:
+ros2 param set <node_name> <parameter_name> <value>
+Пример — поменяем цвет фона:
+ros2 param set /turtlesim background_r 150
+
+
+Чтобы просмотреть все текущие значения параметров ноды или сохранить их в файл:
+ros2 param dump /turtlesim > turtlesim.yaml
+
+
+Чтобы загрузить параметры из файла в уже работающую ноду:
+ros2 param load /turtlesim turtlesim.yaml
+
+
+Чтобы сразу использовать сохранённые параметры при старте ноды:
+ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim.yaml
+
+
+
+Задание:
+ros2 service list -t
+
+ros2 service call /kill turtlesim/srv/Kill "{name: 'turtle1'}"
+
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: 'Leonardo'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 5, y: 5, theta: 0.2, name: 'Raphael'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 7, y: 7, theta: 0.2, name: 'Donatello'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 10, y: 10, theta: 0.2, name: 'Michelangelo'}"
+
+ros2 param set /turtlesim background_g 124
+
+ros2 param dump /turtlesim >> parameter_server.txt
+
+ros2 service list >> rosservice_list.txt
+
+
+ros2 topic pub /Leonardo/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}"
+
+
+
+
+
+

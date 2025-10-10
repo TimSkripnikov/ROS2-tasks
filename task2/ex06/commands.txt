@@ -1,0 +1,80 @@
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+запустить rqt_graph:
+ros2 run rqt_graph rqt_graph
+
+ros2 topic list
+Если добавить флаг -t, то команда покажет те же топики,
+но с указанием типа сообщений, передаваемых в каждом из них:
+ros2 topic list -t
+
+Чтобы просмотреть данные, которые публикуются в определённом топике, используется команда:
+ros2 topic echo <topic_name>
+
+Используем эхо, чтобы посмотреть на данные в топике:
+ros2 topic echo /turtle1/cmd_vel
+
+Чтобы узнать детали конкретного топика, используется команда:
+ros2 topic info /turtle1/cmd_vel
+
+Чтобы узнать структуру этого сообщения, используется команда:
+ros2 interface show geometry_msgs/msg/Twist
+
+Теперь, когда у вас есть структура сообщения, вы можете публиковать
+данные в топик прямо из командной строки с помощью:
+ros2 topic pub <topic_name> <msg_type> '<args>'
+
+Аргумент '<args>' — это данные, которые вы передаёте в топик,
+и они должны соответствовать структуре сообщения
+
+ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+
+Иногда нужно отправить сообщение только один раз (а не поток).
+Для этого используется опция --once:
+ros2 topic pub --once -w 2 /turtle1/cmd_vel geometry_msgs/msg/Twist 
+
+Можно также “послушать” другой топик, например /turtle1/pose:
+ros2 topic echo /turtle1/pose
+
+
+Если вы публикуете сообщения с временными метками, команда ros2 topic pub может автоматически проставлять текущее время.
+
+Для сообщений с std_msgs/msg/Header можно задать поле header как "auto":
+ros2 topic pub /pose geometry_msgs/msg/PoseStamped '{header: "auto", pose: {position: {x: 1.0, y: 2.0, z: 3.0}}}'
+
+Для сообщений, где есть поле типа builtin_interfaces/msg/Time, его можно установить как "now":
+ros2 topic pub /reference sensor_msgs/msg/TimeReference '{header: "auto", time_ref: "now", source: "dumy"}'
+
+
+С помощью этой команды можно посмотреть частоту публикации сообщений в заданном топике:
+ros2 topic hz /turtle1/pose
+
+Эта команда показывает, какую пропускную способность (bandwidth) использует топик, то есть объём передаваемых данных в секунду.
+ros2 topic bw /turtle1/pose
+
+Чтобы вывести все топики с определённым типом сообщений, используйте:
+ros2 topic find <topic_type>
+
+Например, топик /turtle1/cmd_vel использует тип:
+geometry_msgs/msg/Twist
+
+
+
+_______________________________________________________________
+ros2 topic echo /turtle1/cmd_vel >> cmd_vel.txt 
+
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -1.8}}"
+
+
+
+
+
+
+
+
+
+
+

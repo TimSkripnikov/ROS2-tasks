@@ -1,0 +1,30 @@
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+ros2 run rqt_console rqt_console
+
+ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist \
+"{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+-r 1 — публикация с частотой 1 Гц.
+
+Можно установить уровень логов сразу при запуске ноды:
+ros2 run turtlesim turtlesim_node --ros-args --log-level WARN
+Теперь в консоли не будут отображаться Info-сообщения, будут видны только Warn, Error и Fatal.
+
+
+
+ros2 launch three_turtles.launch
+
+ros2 run turtlesim turtle_teleop_key --ros_args -r __ns:=/turtlesim1
+
+ros2 run rqt_console rqt_console
+
+
+
+Параметр --ros-args -r __ns:=/turtlesim1 говорит ROS 2:
+«Размести этот узел внутри пространства имён /turtlesim1».
+Узел теперь называется:
+/turtlesim1/turtle_teleop_key
+Все топики, которые он публикует или слушает, также получают этот префикс:
+/turtle1/cmd_vel  →  /turtlesim1/turtle1/cmd_vel
+То есть теперь этот узел будет отправлять команды не в обычную черепаху, а в ту, которая живёт в пространстве имён /turtlesim1
