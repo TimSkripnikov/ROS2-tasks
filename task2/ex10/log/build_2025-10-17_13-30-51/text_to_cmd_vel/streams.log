@@ -1,0 +1,25 @@
+[1.467s] Invoking command in '/home/artem/Documents/3_course/robotics/task2/ex10/src/text_to_cmd_vel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_to_cmd_vel build --build-base /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/build install --record /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.894s] writing ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[1.894s] writing dependency_links to ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[1.894s] writing entry points to ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[1.894s] writing requirements to ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[1.895s] writing top-level names to ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[1.948s] reading manifest file '../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.949s] adding license file 'LICENSE'
+[1.950s] writing manifest file '../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.950s] running build
+[1.950s] running build_py
+[1.950s] copying text_to_cmd_vel/text_to_cmd_vel_node.py -> /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[1.951s] running install
+[1.961s] running install_lib
+[1.986s] copying /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/text_to_cmd_vel_node.py -> /home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[1.987s] byte-compiling /home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel/text_to_cmd_vel_node.py to text_to_cmd_vel_node.cpython-312.pyc
+[1.988s] running install_data
+[1.989s] running install_egg_info
+[2.018s] removing '/home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.0-py3.12.egg-info' (and everything under it)
+[2.018s] Copying ../../build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.0-py3.12.egg-info
+[2.019s] running install_scripts
+[2.236s] Installing text_to_cmd_vel_node script to /home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[2.237s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/install.log'
+[2.292s] Invoked command in '/home/artem/Documents/3_course/robotics/task2/ex10/src/text_to_cmd_vel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_to_cmd_vel build --build-base /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/build install --record /home/artem/Documents/3_course/robotics/task2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data

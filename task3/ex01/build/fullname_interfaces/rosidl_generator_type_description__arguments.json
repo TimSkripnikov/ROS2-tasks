@@ -1,0 +1,12 @@
+{
+  "package_name": "fullname_interfaces",
+  "output_dir": "/home/artem/Documents/3_course/robotics/task3/ex01/build/fullname_interfaces/rosidl_generator_type_description/fullname_interfaces",
+  "idl_tuples": [
+    "/home/artem/Documents/3_course/robotics/task3/ex01/build/fullname_interfaces/rosidl_adapter/fullname_interfaces:msg/FullNameMessage.idl",
+    "/home/artem/Documents/3_course/robotics/task3/ex01/build/fullname_interfaces/rosidl_adapter/fullname_interfaces:srv/FullNameSumService.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

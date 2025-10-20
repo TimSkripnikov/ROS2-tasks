@@ -1,0 +1,97 @@
+ros2 bag — это инструмент командной строки для записи данных, публикуемых в топиках и сервисах в вашей системе ROS 2.
+Он собирает данные, передаваемые по одному или нескольким топикам и сервисам, и сохраняет их в базе данных.
+Затем эти данные можно воспроизвести, чтобы повторить результаты тестов или экспериментов.
+
+ros2 topic list
+
+
+Чтобы записать данные, публикуемые в конкретном топике, используется команда:
+ros2 bag record <topic_name>
+
+cd ~/bag_files
+ros2 bag record /turtle1/cmd_vel
+
+Можно записывать сразу несколько топиков и задать собственное имя для файла.
+ros2 bag record -o subset /turtle1/cmd_vel /turtle1/pose
+
+Записывать все топики:
+ros2 bag record -a
+
+
+Чтобы просмотреть информацию о записанном bag-файле, используйте команду:
+ros2 bag info <bag_file_name>
+
+Например, если вы записали файл под именем subset, выполните:
+ros2 bag info subset
+
+
+Чтобы воспроизвести записанные данные, сначала остановите управление черепахой (нажмите Ctrl+C в терминале с turtle_teleop_key).
+Убедитесь, что окно turtlesim открыто и активно.
+Затем выполните:
+ros2 bag play subset
+
+ros2 topic hz /turtle1/pose
+Эта команда покажет среднюю частоту публикации сообщений в топике /turtle1/pose
+
+Чтобы записать данные конкретных сервисов:
+ros2 bag record --service <service_names>
+
+
+Чтобы записать данные всех сервисов:
+ros2 bag record --all-services
+Пример:
+ros2 bag record --service /add_two_ints
+
+Воспроизведение файла bag запустит повторную отправку запросов на introspection_service.
+ros2 bag play --publish-service-requests <bag_file_name>
+
+
+sudo apt install ros-jazzy-rosbag2-storage-mcap
+
+Задание:
+
+Изменение размера окна:
+
+    cd ~/Documents/3_course/robotics/task3/ex02
+
+    git clone https://github.com/ros/ros_tutorials.git -b jazzy
+    cd ros_tutorials
+    colcon build --packages-select turtlesim
+
+    source ~/Documents/3_course/robotics/task3/ex02/ros_tutorials/install/setup.bash
+
+Запись данных:
+    ros2 run turtlesim turtlesim_node
+    ros2 run turtlesim turtle_teleop_key
+
+    cd bag_files
+    ros2 bag record -o turtle_cmd_vel.mcap turtle1/cmd_vel
+        
+        ros2 bag record — команда для записи данных топика
+        -o turtle_cmd_vel.mcap — имя создаваемого bag-файла (формат MCAP)
+        /turtle1/cmd_vel — топик, данные которого будут записаны
+
+Нужно не забыть остановить и заново запустить черепашку.
+
+Воспроизведение данных:
+    ros2 topic echo /turtle1/pose
+
+    ros2 topic echo /turtle1/pose >> pose_speed_x1.yaml
+
+    cd bag_files
+
+    ros2 bag play turtle_cmd_vel.mcap 
+
+Скорость х2:
+
+    ros2 topic echo /turtle1/pose >> pose_speed_x2.yaml
+
+    cd bag_files
+
+    ros2 bag play turtle_cmd_vel.mcap -r 2
+
+
+Есть ещё такой вариант:
+    ros2 bag play turtle_cmd_vel.mcap | ros2 topic echo /turtle1/pose >> ~/Documents/3_course/robotics/task3/ex02/pose_speed_x1.yaml
+
+

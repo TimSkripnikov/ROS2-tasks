@@ -16,13 +16,9 @@ ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
 ros2 node info <node_name>
 
 Команда ros2 node info возвращает список:
-
 подписчиков (Subscribers),
-
 публикаторов (Publishers),
-
 сервисов (Service Servers и Clients),
-
 действий (Action Servers и Clients).
 
 Иными словами, это отображение всех ROS graph connections,

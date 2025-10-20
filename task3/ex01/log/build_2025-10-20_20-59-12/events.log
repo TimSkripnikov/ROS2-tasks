@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (-) JobUnselected: {'identifier': 'fullname_interfaces'}
+[0.000108] (service_full_name) JobQueued: {'identifier': 'service_full_name', 'dependencies': OrderedDict({'fullname_interfaces': '/home/artem/Documents/3_course/robotics/task3/ex01/install/fullname_interfaces'})}
+[0.000507] (service_full_name) JobStarted: {'identifier': 'service_full_name'}
+[0.006346] (service_full_name) JobEnded: {'identifier': 'service_full_name', 'rc': 1}
+[0.016654] (-) EventReactorShutdown: {}

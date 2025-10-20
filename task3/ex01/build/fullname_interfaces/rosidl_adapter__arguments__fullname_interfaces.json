@@ -1,0 +1,7 @@
+{
+  "package_name": "fullname_interfaces",
+  "non_idl_tuples": [
+    "/home/artem/Documents/3_course/robotics/task3/ex01/fullname_interfaces:msg/FullNameMessage.msg",
+    "/home/artem/Documents/3_course/robotics/task3/ex01/fullname_interfaces:srv/FullNameSumService.srv"
+  ]
+}

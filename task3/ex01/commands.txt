@@ -1,0 +1,13 @@
+cd ~/Documents/3_course/robotics/task3/ex01
+
+Сначала интерфейсный пакет:
+colcon build --packages-select fullname_interfaces
+
+colcon build --packages-select service_full_name
+
+source ~/Documents/3_course/robotics/task3/ex01/install/setup.bash
+
+
+ros2 run service_full_name service_name
+
+ros2 run service_full_name client_name Skripnikov Artem Petrovich

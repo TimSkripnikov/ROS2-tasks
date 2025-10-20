@@ -53,13 +53,6 @@ ros2 param get <node_name> <param_name>
 ros2 param get /turtlesim background_r
 
 
-Чтобы узнать тип и текущее значение параметра ноды:
-ros2 param get <node_name> <parameter_name>
-
-Пример — проверим параметр background_g ноды /turtlesim:
-ros2 param get /turtlesim background_g
-
-
 Чтобы изменить значение параметра во время работы ноды:
 ros2 param set <node_name> <parameter_name> <value>
 Пример — поменяем цвет фона:
