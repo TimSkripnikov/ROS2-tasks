@@ -1,0 +1,526 @@
+
+   NETWORK CONFIGURATION
+inet         : 127.0.0.1
+inet4        : ['127.0.0.1']
+inet6        : ['::1']
+netmask      : 255.0.0.0
+device       : lo
+flags        : 73<RUNNING,LOOPBACK,UP>
+mtu          : 65536
+inet         : 192.168.43.234
+inet4        : ['192.168.43.234']
+ether        : 10:51:07:18:34:36
+inet6        : ['fe80::10a6:1bd1:13c9:5da1%wlp0s20f3']
+netmask      : 255.255.255.0
+device       : wlp0s20f3
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 192.168.43.255
+inet         : 172.27.0.1
+inet4        : ['172.27.0.1']
+ether        : ee:01:44:20:41:95
+netmask      : 255.255.0.0
+device       : br-1d166653bcae
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.27.255.255
+inet         : 192.168.200.1
+inet4        : ['192.168.200.1']
+ether        : 52:96:5a:1c:8b:c0
+netmask      : 255.255.255.0
+device       : br-6f174e60fdc0
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 192.168.200.255
+inet         : 192.168.100.1
+inet4        : ['192.168.100.1']
+ether        : fa:51:cc:23:1c:55
+netmask      : 255.255.255.0
+device       : br-9ac49898be5d
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 192.168.100.255
+inet         : 172.28.0.1
+inet4        : ['172.28.0.1']
+ether        : 56:d4:c2:47:a4:47
+inet6        : ['fd00:dead:beef::1']
+netmask      : 255.255.0.0
+device       : br-3192d9e5d333
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.28.255.255
+inet         : 172.17.0.1
+inet4        : ['172.17.0.1']
+ether        : 3e:42:9f:7d:8d:ca
+netmask      : 255.255.0.0
+device       : docker0
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.17.255.255
+inet         : 172.22.0.1
+inet4        : ['172.22.0.1']
+ether        : 46:4d:e2:d7:22:f0
+netmask      : 255.255.0.0
+device       : br-bc58bb9c7d8b
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.22.255.255
+inet         : 172.23.0.1
+inet4        : ['172.23.0.1']
+ether        : 06:47:3d:6a:a2:52
+netmask      : 255.255.0.0
+device       : br-ef25e72054d2
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.23.255.255
+inet         : 172.18.0.1
+inet4        : ['172.18.0.1']
+ether        : b2:81:c7:33:21:a0
+netmask      : 255.255.0.0
+device       : br-003a9693aba0
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.18.255.255
+inet         : 172.26.0.1
+inet4        : ['172.26.0.1']
+ether        : 26:cf:52:17:d6:c1
+netmask      : 255.255.0.0
+device       : br-62a6414888ac
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.26.255.255
+inet         : 172.29.0.1
+inet4        : ['172.29.0.1']
+ether        : 5a:75:a1:ad:a3:20
+inet6        : ['fe80::5875:a1ff:fead:a320%br-a0a9a40e698d']
+netmask      : 255.255.0.0
+device       : br-a0a9a40e698d
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.29.255.255
+inet         : 172.24.0.1
+inet4        : ['172.24.0.1']
+ether        : 06:11:3e:a8:d8:1e
+netmask      : 255.255.0.0
+device       : br-f64c9ea9a43e
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.24.255.255
+inet         : 172.20.0.1
+inet4        : ['172.20.0.1']
+ether        : 9a:f6:b0:62:bf:b5
+netmask      : 255.255.0.0
+device       : br-7271a31f1a6b
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.20.255.255
+inet         : 172.21.0.1
+inet4        : ['172.21.0.1']
+ether        : 1a:aa:e0:26:18:c9
+netmask      : 255.255.0.0
+device       : br-91e92295d127
+flags        : 4099<BROADCAST,MULTICAST,UP>
+mtu          : 1500
+broadcast    : 172.21.255.255
+inet         : 172.25.0.1
+inet4        : ['172.25.0.1']
+ether        : 0a:ca:0a:2a:74:4a
+inet6        : ['fe80::8ca:aff:fe2a:744a%br-9e771fa095c4']
+netmask      : 255.255.0.0
+device       : br-9e771fa095c4
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.25.255.255
+inet         : 172.19.0.1
+inet4        : ['172.19.0.1']
+ether        : c6:d9:71:49:61:36
+inet6        : ['fe80::c4d9:71ff:fe49:6136%br-fc8caa8e1417']
+netmask      : 255.255.0.0
+device       : br-fc8caa8e1417
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.19.255.255
+ether        : 02:a8:a5:e8:a8:5e
+inet6        : ['fe80::a8:a5ff:fee8:a85e%veth7fac9bb']
+device       : veth7fac9bb
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+ether        : e6:80:29:c5:72:bf
+inet6        : ['fe80::e480:29ff:fec5:72bf%veth38bd02c']
+device       : veth38bd02c
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+ether        : d6:51:bb:50:69:6f
+inet6        : ['fe80::d451:bbff:fe50:696f%vethc3b8637']
+device       : vethc3b8637
+flags        : 4163<BROADCAST,RUNNING,UP,MULTICAST>
+mtu          : 1500
+
+   PACKAGE VERSIONS
+turtlesim                                 : latest=1.8.3, local=1.8.3
+ament_cmake_core                          : latest=2.5.4, local=2.5.4
+ament_uncrustify                          : latest=0.17.3, local=0.17.3
+rclcpp_action                             : latest=28.1.12, local=28.1.11
+rqt_image_view                            : latest=1.3.0, local=1.3.0
+rosidl_generator_type_description         : latest=4.6.6, local=4.6.6
+point_cloud_transport                     : latest=4.0.5, local=4.0.4
+ament_cmake_flake8                        : latest=0.17.3, local=0.17.3
+rosidl_typesupport_introspection_c        : latest=4.6.6, local=4.6.6
+ros_environment                           : latest=4.2.1, local=4.2.1
+rqt_reconfigure                           : latest=1.6.2, local=1.6.2
+composition                               : latest=0.33.7, local=0.33.6
+action_tutorials_cpp                      : latest=0.33.7, local=0.33.6
+geometry_msgs                             : latest=5.3.6, local=5.3.6
+ament_lint_cmake                          : latest=0.17.3, local=0.17.3
+gz_math_vendor                            : latest=0.0.8, local=0.0.8
+rosbag2_storage_default_plugins           : latest=0.26.9, local=0.26.9
+rclpy                                     : latest=7.1.5, local=7.1.5
+ament_cmake_gtest                         : latest=2.5.4, local=2.5.4
+tf2                                       : latest=0.36.15, local=0.36.14
+ros2component                             : latest=0.32.6, local=0.32.5
+kdl_parser                                : latest=2.11.0, local=2.11.0
+rosidl_runtime_cpp                        : latest=4.6.6, local=4.6.6
+tf2_kdl                                   : latest=0.36.15, local=0.36.14
+image_geometry                            : latest=4.1.0, local=4.1.0
+quality_of_service_demo_py                : latest=0.33.7, local=0.33.6
+rosbag2                                   : latest=0.26.9, local=0.26.9
+diagnostic_msgs                           : latest=5.3.6, local=5.3.6
+eigen3_cmake_module                       : latest=0.3.0, local=0.3.0
+libstatistics_collector                   : latest=1.7.4, local=1.7.4
+qt_gui_cpp                                : latest=2.7.5, local=2.7.5
+sensor_msgs_py                            : latest=5.3.6, local=5.3.6
+libcurl_vendor                            : latest=3.4.4, local=3.4.4
+rclcpp_components                         : latest=28.1.12, local=28.1.11
+ament_cmake_cpplint                       : latest=0.17.3, local=0.17.3
+pybind11_vendor                           : latest=3.1.3, local=3.1.3
+dummy_robot_bringup                       : latest=0.33.7, local=0.33.6
+rcl_lifecycle                             : latest=9.2.7, local=9.2.7
+rqt_gui_cpp                               : latest=1.6.2, local=1.6.0
+ament_cmake_pep257                        : latest=0.17.3, local=0.17.3
+rosidl_generator_cpp                      : latest=4.6.6, local=4.6.6
+tf2_ros_py                                : latest=0.36.15, local=0.36.14
+shape_msgs                                : latest=5.3.6, local=5.3.6
+rosbag2_compression_zstd                  : latest=0.26.9, local=0.26.9
+rosbag2_storage_mcap                      : latest=0.26.9, local=0.26.9
+rviz_assimp_vendor                        : latest=14.1.16, local=14.1.13
+lifecycle                                 : latest=0.33.7, local=0.33.6
+ament_cmake_lint_cmake                    : latest=0.17.3, local=0.17.3
+rmw_fastrtps_cpp                          : latest=8.4.3, local=8.4.3
+nav_msgs                                  : latest=5.3.6, local=5.3.6
+rosidl_dynamic_typesupport                : latest=0.1.2, local=0.1.2
+tlsf                                      : latest=0.9.0, local=0.9.0
+rosbag2_cpp                               : latest=0.26.9, local=0.26.9
+launch_testing_ros                        : latest=0.26.9, local=0.26.8
+rqt_common_plugins                        : latest=1.2.0, local=1.2.0
+rosidl_typesupport_cpp                    : latest=3.2.2, local=3.2.2
+rqt_action                                : latest=2.2.0, local=2.2.0
+rosidl_dynamic_typesupport_fastrtps       : latest=0.1.0, local=0.1.0
+sdl2_vendor                               : latest=3.3.0, local=3.3.0
+ament_cmake_cppcheck                      : latest=0.17.3, local=0.17.3
+logging_demo                              : latest=0.33.7, local=0.33.6
+tf2_tools                                 : latest=0.36.15, local=0.36.14
+tinyxml2_vendor                           : latest=0.9.1, local=0.9.1
+examples_rclcpp_minimal_service           : latest=0.19.7, local=0.19.6
+pcl_conversions                           : latest=2.6.2, local=2.6.2
+laser_geometry                            : latest=2.7.2, local=2.7.1
+rqt_msg                                   : latest=1.5.1, local=1.5.1
+ros2launch                                : latest=0.26.9, local=0.26.8
+orocos_kdl_vendor                         : latest=0.5.1, local=0.5.1
+teleop_twist_keyboard                     : latest=2.4.1, local=2.4.0
+ament_cmake_auto                          : latest=2.5.4, local=2.5.4
+zstd_vendor                               : latest=0.26.9, local=0.26.9
+ament_cmake_gen_version_h                 : latest=2.5.4, local=2.5.4
+examples_rclcpp_minimal_client            : latest=0.19.7, local=0.19.6
+interactive_markers                       : latest=2.5.5, local=2.5.4
+urdf                                      : latest=2.10.0, local=2.10.0
+rqt_srv                                   : latest=1.2.2, local=1.2.2
+rosidl_generator_py                       : latest=0.22.2, local=0.22.1
+unique_identifier_msgs                    : latest=2.5.0, local=2.5.0
+ament_cmake_copyright                     : latest=0.17.3, local=0.17.3
+examples_rclpy_minimal_subscriber         : latest=0.19.7, local=0.19.6
+rcl_yaml_param_parser                     : latest=9.2.7, local=9.2.7
+demo_nodes_cpp                            : latest=0.33.7, local=0.33.6
+rosbag2_interfaces                        : latest=0.26.9, local=0.26.9
+python_qt_binding                         : latest=2.2.2, local=2.2.1
+dummy_sensors                             : latest=0.33.7, local=0.33.6
+rqt_bag_plugins                           : latest=1.5.5, local=1.5.5
+examples_rclpy_minimal_client             : latest=0.19.7, local=0.19.6
+resource_retriever                        : latest=3.4.4, local=3.4.4
+rmw_dds_common                            : latest=3.1.0, local=3.1.0
+example_interfaces                        : latest=0.12.0, local=0.12.0
+libyaml_vendor                            : latest=1.6.3, local=1.6.3
+rcutils                                   : latest=6.7.4, local=6.7.3
+ament_cmake_libraries                     : latest=2.5.4, local=2.5.4
+ros2service                               : latest=0.32.6, local=0.32.5
+rclcpp_lifecycle                          : latest=28.1.12, local=28.1.11
+robot_state_publisher                     : latest=3.3.3, local=3.3.3
+rosidl_generator_c                        : latest=4.6.6, local=4.6.6
+rcl_interfaces                            : latest=2.0.3, local=2.0.3
+ros_base                                  : latest=0.11.0, local=0.11.0
+rqt_console                               : latest=2.2.1, local=2.2.1
+tf2_eigen_kdl                             : latest=0.36.15, local=0.36.14
+examples_rclcpp_minimal_timer             : latest=0.19.7, local=0.19.6
+ament_package                             : latest=0.16.4, local=0.16.4
+rmw_implementation                        : latest=2.15.6, local=2.15.6
+joy                                       : latest=3.3.0, local=3.3.0
+rqt_py_common                             : latest=1.6.2, local=1.6.0
+common_interfaces                         : latest=5.3.6, local=5.3.6
+ament_cmake_target_dependencies           : latest=2.5.4, local=2.5.4
+rviz_rendering                            : latest=14.1.16, local=14.1.13
+ament_xmllint                             : latest=0.17.3, local=0.17.3
+rosidl_adapter                            : latest=4.6.6, local=4.6.6
+builtin_interfaces                        : latest=2.0.3, local=2.0.3
+action_tutorials_interfaces               : latest=0.33.7, local=0.33.6
+ament_cmake_export_libraries              : latest=2.5.4, local=2.5.4
+quality_of_service_demo_cpp               : latest=0.33.7, local=0.33.6
+rmw_fastrtps_shared_cpp                   : latest=8.4.3, local=8.4.3
+urdf_parser_plugin                        : latest=2.10.0, local=2.10.0
+ros2cli_common_extensions                 : latest=0.3.0, local=0.3.0
+ros2run                                   : latest=0.32.6, local=0.32.5
+rqt_shell                                 : latest=1.2.2, local=1.2.2
+tf2_eigen                                 : latest=0.36.15, local=0.36.14
+ament_cmake_export_definitions            : latest=2.5.4, local=2.5.4
+launch_testing_ament_cmake                : latest=3.4.8, local=3.4.6
+launch                                    : latest=3.4.8, local=3.4.6
+rosidl_typesupport_fastrtps_cpp           : latest=3.6.2, local=3.6.2
+qt_dotgraph                               : latest=2.7.5, local=2.7.5
+tango_icons_vendor                        : latest=0.3.0, local=0.3.0
+ament_cmake_export_include_directories    : latest=2.5.4, local=2.5.4
+tf2_msgs                                  : latest=0.36.15, local=0.36.14
+examples_rclcpp_minimal_publisher         : latest=0.19.7, local=0.19.6
+tf2_sensor_msgs                           : latest=0.36.15, local=0.36.14
+yaml_cpp_vendor                           : latest=9.0.1, local=9.0.1
+tlsf_cpp                                  : latest=0.17.1, local=0.17.1
+examples_rclcpp_minimal_action_client     : latest=0.19.7, local=0.19.6
+ros2bag                                   : latest=0.26.9, local=0.26.9
+domain_coordinator                        : latest=0.12.0, local=0.12.0
+message_filters                           : latest=4.11.9, local=4.11.7
+launch_yaml                               : latest=3.4.8, local=3.4.6
+ros_workspace                             : latest=1.0.3, local=1.0.3
+rttest                                    : latest=0.17.1, local=0.17.1
+rosbag2_storage_sqlite3                   : latest=0.26.9, local=0.26.9
+stereo_msgs                               : latest=5.3.6, local=5.3.6
+ament_cmake                               : latest=2.5.4, local=2.5.4
+service_msgs                              : latest=2.0.3, local=2.0.3
+examples_rclpy_minimal_action_server      : latest=0.19.7, local=0.19.6
+python_orocos_kdl_vendor                  : latest=0.5.1, local=0.5.1
+ros2cli                                   : latest=0.32.6, local=0.32.5
+ament_cmake_export_targets                : latest=2.5.4, local=2.5.4
+ament_index_cpp                           : latest=1.8.1, local=1.8.1
+trajectory_msgs                           : latest=5.3.6, local=5.3.6
+geometry2                                 : latest=0.36.15, local=0.36.14
+rviz_ogre_vendor                          : latest=14.1.16, local=14.1.13
+pluginlib                                 : latest=5.4.3, local=5.4.2
+rqt_bag                                   : latest=1.5.5, local=1.5.5
+tf2_ros                                   : latest=0.36.15, local=0.36.14
+ament_flake8                              : latest=0.17.3, local=0.17.3
+pcl_msgs                                  : latest=1.0.0, local=1.0.0
+ament_cmake_gmock                         : latest=2.5.4, local=2.5.4
+keyboard_handler                          : latest=0.3.1, local=0.3.1
+rviz2                                     : latest=14.1.16, local=14.1.13
+ros2action                                : latest=0.32.6, local=0.32.5
+examples_rclpy_executors                  : latest=0.19.7, local=0.19.6
+rcl_logging_interface                     : latest=3.1.1, local=3.1.1
+ament_lint_common                         : latest=0.17.3, local=0.17.3
+launch_xml                                : latest=3.4.8, local=3.4.6
+rosidl_core_runtime                       : latest=0.2.0, local=0.2.0
+rosidl_default_generators                 : latest=1.6.0, local=1.6.0
+tf2_py                                    : latest=0.36.15, local=0.36.14
+ament_lint_auto                           : latest=0.17.3, local=0.17.3
+ament_cmake_uncrustify                    : latest=0.17.3, local=0.17.3
+rmw                                       : latest=7.3.2, local=7.3.2
+rcl_logging_spdlog                        : latest=3.1.1, local=3.1.1
+ament_cmake_version                       : latest=2.5.4, local=2.5.4
+rqt_gui_py                                : latest=1.6.2, local=1.6.0
+image_tools                               : latest=0.33.7, local=0.33.6
+qt_gui                                    : latest=2.7.5, local=2.7.5
+sqlite3_vendor                            : latest=0.26.9, local=0.26.9
+ament_lint                                : latest=0.17.3, local=0.17.3
+rcl                                       : latest=9.2.7, local=9.2.7
+rqt_publisher                             : latest=1.7.2, local=1.7.2
+ament_cppcheck                            : latest=0.17.3, local=0.17.3
+visualization_msgs                        : latest=5.3.6, local=5.3.6
+rqt_service_caller                        : latest=1.2.1, local=1.2.1
+rcpputils                                 : latest=2.11.2, local=2.11.2
+tracetools                                : latest=8.2.4, local=8.2.4
+rosidl_typesupport_fastrtps_c             : latest=3.6.2, local=3.6.2
+ament_cmake_export_interfaces             : latest=2.5.4, local=2.5.4
+rosidl_typesupport_interface              : latest=4.6.6, local=4.6.6
+ros2pkg                                   : latest=0.32.6, local=0.32.5
+pendulum_control                          : latest=0.33.7, local=0.33.6
+depthimage_to_laserscan                   : latest=2.5.1, local=2.5.1
+statistics_msgs                           : latest=2.0.3, local=2.0.3
+ament_index_python                        : latest=1.8.1, local=1.8.1
+rviz_default_plugins                      : latest=14.1.16, local=14.1.13
+rosidl_typesupport_c                      : latest=3.2.2, local=3.2.2
+rosidl_typesupport_introspection_cpp      : latest=4.6.6, local=4.6.6
+rosidl_cli                                : latest=4.6.6, local=4.6.6
+ament_cmake_test                          : latest=2.5.4, local=2.5.4
+examples_rclpy_minimal_service            : latest=0.19.7, local=0.19.6
+demo_nodes_cpp_native                     : latest=0.33.7, local=0.33.6
+ros2param                                 : latest=0.32.6, local=0.32.5
+pendulum_msgs                             : latest=0.33.7, local=0.33.6
+rqt_graph                                 : latest=1.5.5, local=1.5.5
+rqt_py_console                            : latest=1.2.3, local=1.2.2
+examples_rclcpp_multithreaded_executor    : latest=0.19.7, local=0.19.6
+liblz4_vendor                             : latest=0.26.9, local=0.26.9
+rviz_common                               : latest=14.1.16, local=14.1.13
+examples_rclcpp_minimal_action_server     : latest=0.19.7, local=0.19.6
+ament_cmake_python                        : latest=2.5.4, local=2.5.4
+uncrustify_vendor                         : latest=3.0.1, local=3.0.1
+tf2_geometry_msgs                         : latest=0.36.15, local=0.36.14
+tf2_bullet                                : latest=0.36.15, local=0.36.14
+ament_cpplint                             : latest=0.17.3, local=0.17.3
+gz_cmake_vendor                           : latest=0.0.10, local=0.0.10
+ament_cmake_ros                           : latest=0.12.0, local=0.12.0
+sensor_msgs                               : latest=5.3.6, local=5.3.6
+rosbag2_py                                : latest=0.26.9, local=0.26.9
+rosidl_default_runtime                    : latest=1.6.0, local=1.6.0
+ros2node                                  : latest=0.32.6, local=0.32.5
+rosidl_parser                             : latest=4.6.6, local=4.6.6
+rosidl_core_generators                    : latest=0.2.0, local=0.2.0
+rosidl_runtime_py                         : latest=0.13.1, local=0.13.1
+osrf_pycommon                             : latest=2.1.7, local=2.1.7
+ament_cmake_export_link_flags             : latest=2.5.4, local=2.5.4
+image_transport                           : latest=5.1.7, local=5.1.7
+std_srvs                                  : latest=5.3.6, local=5.3.6
+sros2_cmake                               : latest=0.13.4, local=0.13.4
+rmw_implementation_cmake                  : latest=7.3.2, local=7.3.2
+rqt_gui                                   : latest=1.6.2, local=1.6.0
+examples_rclpy_minimal_publisher          : latest=0.19.7, local=0.19.6
+ament_cmake_export_dependencies           : latest=2.5.4, local=2.5.4
+rqt_topic                                 : latest=1.7.4, local=1.7.3
+rpyutils                                  : latest=0.4.2, local=0.4.1
+fastrtps_cmake_module                     : latest=3.6.2, local=3.6.2
+desktop                                   : latest=0.11.0, local=0.11.0
+rqt_plot                                  : latest=1.4.4, local=1.4.4
+action_tutorials_py                       : latest=0.33.7, local=0.33.6
+ament_cmake_pytest                        : latest=2.5.4, local=2.5.4
+actionlib_msgs                            : latest=5.3.6, local=5.3.6
+cv_bridge                                 : latest=4.1.0, local=4.1.0
+rosbag2_transport                         : latest=0.26.9, local=0.26.9
+topic_monitor                             : latest=0.33.7, local=0.33.6
+rosidl_cmake                              : latest=4.6.6, local=4.6.6
+rcl_action                                : latest=9.2.7, local=9.2.7
+rclcpp                                    : latest=28.1.12, local=28.1.11
+ros_core                                  : latest=0.11.0, local=0.11.0
+launch_ros                                : latest=0.26.9, local=0.26.8
+examples_rclcpp_minimal_composition       : latest=0.19.7, local=0.19.6
+rosbag2_storage                           : latest=0.26.9, local=0.26.9
+ros2multicast                             : latest=0.32.6, local=0.32.5
+ament_cmake_include_directories           : latest=2.5.4, local=2.5.4
+demo_nodes_py                             : latest=0.33.7, local=0.33.6
+spdlog_vendor                             : latest=1.6.1, local=1.6.1
+rosbag2_compression                       : latest=0.26.9, local=0.26.9
+rosidl_pycommon                           : latest=4.6.6, local=4.6.6
+action_msgs                               : latest=2.0.3, local=2.0.3
+dummy_map_server                          : latest=0.33.7, local=0.33.6
+type_description_interfaces               : latest=2.0.3, local=2.0.3
+gz_utils_vendor                           : latest=0.0.5, local=0.0.5
+examples_rclpy_minimal_action_client      : latest=0.19.7, local=0.19.6
+lifecycle_msgs                            : latest=2.0.3, local=2.0.3
+ros2doctor                                : latest=0.32.6, local=0.32.5
+ros2lifecycle                             : latest=0.32.6, local=0.32.5
+ros2interface                             : latest=0.32.6, local=0.32.5
+intra_process_demo                        : latest=0.33.7, local=0.33.6
+ament_pep257                              : latest=0.17.3, local=0.17.3
+teleop_twist_joy                          : latest=2.6.5, local=2.6.5
+qt_gui_py_common                          : latest=2.7.5, local=2.7.5
+sros2                                     : latest=0.13.4, local=0.13.4
+console_bridge_vendor                     : latest=1.7.1, local=1.7.1
+python_cmake_module                       : latest=0.11.1, local=0.11.1
+examples_rclcpp_minimal_subscriber        : latest=0.19.7, local=0.19.6
+map_msgs                                  : latest=2.4.1, local=2.4.1
+angles                                    : latest=1.16.1, local=1.16.0
+ros2topic                                 : latest=0.32.6, local=0.32.5
+ament_copyright                           : latest=0.17.3, local=0.17.3
+ament_cmake_xmllint                       : latest=0.17.3, local=0.17.3
+class_loader                              : latest=2.7.0, local=2.7.0
+mcap_vendor                               : latest=0.26.9, local=0.26.9
+composition_interfaces                    : latest=2.0.3, local=2.0.3
+std_msgs                                  : latest=5.3.6, local=5.3.6
+rosidl_runtime_c                          : latest=4.6.6, local=4.6.6
+rosgraph_msgs                             : latest=2.0.3, local=2.0.3
+launch_testing                            : latest=3.4.8, local=3.4.6
+
+   PLATFORM INFORMATION
+system           : Linux
+platform info    : Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+release          : 6.14.0-33-generic
+processor        : x86_64
+
+   QOS COMPATIBILITY LIST
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlesim
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlesim
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlesim
+subscriber node         : teleop_turtle
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_turtle
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_turtle
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_turtle
+subscriber node         : teleop_turtle
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_13_f5b589dca68b434d99fe36dd819b0dd0
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_13_f5b589dca68b434d99fe36dd819b0dd0
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_13_f5b589dca68b434d99fe36dd819b0dd0
+subscriber node         : teleop_turtle
+compatibility status    : OK
+topic [type]            : /turtle1/cmd_vel [geometry_msgs/msg/Twist]
+publisher node          : teleop_turtle
+subscriber node         : turtlesim
+compatibility status    : OK
+topic [type]            : /turtle1/rotate_absolute/_action/feedback [turtlesim/action/RotateAbsolute_FeedbackMessage]
+publisher node          : turtlesim
+subscriber node         : teleop_turtle
+compatibility status    : OK
+topic [type]            : /turtle1/rotate_absolute/_action/status [action_msgs/msg/GoalStatusArray]
+publisher node          : turtlesim
+subscriber node         : teleop_turtle
+compatibility status    : OK
+
+   RMW MIDDLEWARE
+middleware name    : rmw_fastrtps_cpp
+
+   ROS 2 INFORMATION
+distribution name      : jazzy
+distribution type      : ros2
+distribution status    : active
+release platforms      : {'debian': ['bookworm'], 'rhel': ['9'], 'ubuntu': ['noble']}
+
+   TOPIC LIST
+topic               : /turtle1/cmd_vel
+publisher count     : 1
+subscriber count    : 1
+topic               : /turtle1/color_sensor
+publisher count     : 1
+subscriber count    : 0
+topic               : /turtle1/pose
+publisher count     : 1
+subscriber count    : 0
+topic               : /turtle1/rotate_absolute/_action/feedback
+publisher count     : 1
+subscriber count    : 1
+topic               : /turtle1/rotate_absolute/_action/status
+publisher count     : 1
+subscriber count    : 1

@@ -1,0 +1,16 @@
+cd ~/Documents/3_course/robotics/task3/ex04
+
+ros2 pkg create --build-type ament_python move_to_goal --dependencies rclpy geometry_msgs turtlesim
+
+programming...
+
+colcon build --packages-select move_to_goal
+
+source ~/Documents/3_course/robotics/task3/ex04/install/setup.bash
+
+ros2 run turtlesim turtlesim_node
+
+ros2 run move_to_goal move_to_goal 1.0 1.0 90.0
+ros2 run move_to_goal move_to_goal 7.0 2.5 45.0
+ros2 run move_to_goal move_to_goal 7.0 7.0 0.0
+ros2 run move_to_goal move_to_goal 1.0 1.0 90.0

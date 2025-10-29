@@ -1,0 +1,39 @@
+cd ~/Documents/3_course/robotics/task4/ex01
+
+ros2 launch turtle_tf2_py turtle_tf2_demo.launch.py
+
+Команда view_frames создаёт диаграмму всех систем
+координат (frames), которые tf2 транслирует (broadcast) через ROS:
+
+ros2 run tf2_tools view_frames
+
+
+В этот момент tf2 listener прослушивает трансляции систем координат
+в течение 5 секунд и строит дерево связей между ними.
+Результат сохраняется в файл frames.pdf
+
+
+Команда tf2_echo выводит текущее преобразование (transform) между
+любыми двумя фреймами, которые транслируются в ROS.
+
+ros2 run tf2_ros tf2_echo [source_frame] [target_frame]
+
+
+Например, чтобы посмотреть преобразование фрейма
+turtle2 относительно turtle1, выполните:
+
+ros2 run tf2_ros tf2_echo turtle2 turtle1
+
+
+Чтобы посмотреть фреймы черепах в rviz2, запустите его с
+заранее подготовленным конфигурационным файлом (опция -d):
+
+Для Linux:
+ros2 run rviz2 rviz2 -d $(ros2 pkg prefix --share turtle_tf2_py)/rviz/turtle_rviz.rviz
+
+
+Задание:
+cd ~/Documents/3_course/robotics/task4/ex01
+ros2 launch turtle_tf2_py turtle_tf2_demo.launch.py
+ros2 run tf2_tools view_frames
+ros2 run tf2_ros tf2_echo turtle1 turtle2 > ~/Documents/3_course/robotics/task4/ex01/transform.txt

@@ -1,0 +1,23 @@
+cd ~/Documents/3_course/robotics/task3/ex05
+
+ros2 pkg create action_cleaning_robot --build-type ament_python --dependencies rclpy geometry_msgs turtlesim action_msgs
+
+cd action_cleaning_robot
+mkdir action
+cd action
+touch CleaningTask.action
+
+colcon build
+colcon build --packages-select action_cleaning_robot
+
+
+source ~/Documents/3_course/robotics/task3/ex05/install/setup.bash
+
+ros2 interface show action_cleaning_robot/action/CleaningTask
+
+
+ros2 run turtlesim turtlesim_node
+
+ros2 run action_cleaning_robot cleaning_action_server
+
+ros2 run action_cleaning_robot cleaning_action_client

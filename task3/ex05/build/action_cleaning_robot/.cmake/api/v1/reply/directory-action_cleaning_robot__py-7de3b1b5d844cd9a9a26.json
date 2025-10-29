@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "action_cleaning_robot__py",
+		"source" : "/home/artem/Documents/3_course/robotics/task3/ex05/build/action_cleaning_robot/action_cleaning_robot__py"
+	}
+}
