@@ -1,0 +1,8 @@
+setup.py
+current_target_message/__init__.py
+current_target_message.egg-info/PKG-INFO
+current_target_message.egg-info/SOURCES.txt
+current_target_message.egg-info/dependency_links.txt
+current_target_message.egg-info/top_level.txt
+current_target_message/msg/__init__.py
+current_target_message/msg/_current_target.py

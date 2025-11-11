@@ -1,0 +1,11 @@
+{
+  "package_name": "current_target_message",
+  "output_dir": "/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message/rosidl_generator_type_description/current_target_message",
+  "idl_tuples": [
+    "/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message/rosidl_adapter/current_target_message:msg/CurrentTarget.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

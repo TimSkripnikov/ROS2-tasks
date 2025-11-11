@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "fullname_interfaces")
 set(fullname_interfaces_VERSION "0.0.0")
-set(fullname_interfaces_MAINTAINER "meikflow <v.puchkov@g.nsu.ru>")
+set(fullname_interfaces_MAINTAINER "artem <art.skripnikov@gmail.com>")
 set(fullname_interfaces_BUILD_DEPENDS )
 set(fullname_interfaces_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(fullname_interfaces_BUILD_EXPORT_DEPENDS )

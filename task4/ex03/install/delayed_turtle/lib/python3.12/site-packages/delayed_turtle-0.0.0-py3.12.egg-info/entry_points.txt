@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_tf2_broadcaster = delayed_turtle.turtle_tf2_broadcaster:main
+turtle_tf2_listener = delayed_turtle.turtle_tf2_listener:main

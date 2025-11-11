@@ -1,0 +1,30 @@
+[1.683s] Invoking command in '/home/artem/Documents/3_course/robotics/task3/ex01/service_full_name': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex01/install/fullname_interfaces/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages:/home/artem/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/service_full_name build --build-base /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build install --record /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[2.207s] running egg_info
+[2.240s] writing ../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[2.240s] writing dependency_links to ../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[2.240s] writing entry points to ../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[2.241s] writing requirements to ../build/service_full_name/service_full_name.egg-info/requires.txt
+[2.241s] writing top-level names to ../build/service_full_name/service_full_name.egg-info/top_level.txt
+[2.310s] reading manifest file '../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[2.311s] adding license file 'LICENSE'
+[2.312s] writing manifest file '../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[2.312s] running build
+[2.313s] running build_py
+[2.313s] copying service_full_name/client_name.py -> /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build/lib/service_full_name
+[2.313s] copying service_full_name/service_name.py -> /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build/lib/service_full_name
+[2.313s] running install
+[2.326s] running install_lib
+[2.367s] copying /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build/lib/service_full_name/client_name.py -> /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.367s] copying /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build/lib/service_full_name/service_name.py -> /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.369s] byte-compiling /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/client_name.py to client_name.cpython-312.pyc
+[2.370s] byte-compiling /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_name.py to service_name.cpython-312.pyc
+[2.371s] running install_data
+[2.372s] copying package.xml -> /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/share/service_full_name
+[2.372s] running install_egg_info
+[2.409s] removing '/home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info' (and everything under it)
+[2.409s] Copying ../build/service_full_name/service_full_name.egg-info to /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info
+[2.411s] running install_scripts
+[2.650s] Installing client_name script to /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/service_full_name
+[2.650s] Installing service_name script to /home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/service_full_name
+[2.650s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/install.log'
+[2.704s] Invoked command in '/home/artem/Documents/3_course/robotics/task3/ex01/service_full_name' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex01/install/fullname_interfaces/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex01/install/service_full_name/lib/python3.12/site-packages:/home/artem/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/service_full_name build --build-base /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/build install --record /home/artem/Documents/3_course/robotics/task3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

@@ -1,0 +1,197 @@
+[0.144s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.144s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74a2adc9d520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74a2adc9d1c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74a2adc9d1c0>>, mixin_verb=('build',))
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/artem/Documents/3_course/robotics/task4/ex02b'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(current_target_message) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'current_target_message' with type 'ros.ament_cmake' and name 'current_target_message'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_multi_target' with type 'ros.ament_python' and name 'turtle_multi_target'
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/artem/Documents/3_course/robotics/task4/ex02/install
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/artem/Documents/3_course/robotics/task3/ex05/install
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/artem/ros2_ws/install
+[0.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'current_target_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'current_target_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message', 'merge_install': False, 'path': '/home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'turtle_multi_target' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_multi_target' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target', 'merge_install': False, 'path': '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target', 'symlink_install': False, 'test_result_base': None}
+[0.339s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message'
+[0.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message -DCMAKE_INSTALL_PREFIX=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message
+[6.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message -DCMAKE_INSTALL_PREFIX=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message
+[6.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message -- -j12 -l12
+[9.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message -- -j12 -l12
+[9.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message
+[10.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(current_target_message)
+[10.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message
+[10.072s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message' for CMake module files
+[10.074s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message' for CMake config files
+[10.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'cmake_prefix_path')
+[10.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.ps1'
+[10.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.dsv'
+[10.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.sh'
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib'
+[10.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'ld_library_path_lib')
+[10.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.ps1'
+[10.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.dsv'
+[10.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.sh'
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/bin'
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/pkgconfig/current_target_message.pc'
+[10.082s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages'
+[10.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'pythonpath')
+[10.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.ps1'
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.dsv'
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.sh'
+[10.085s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/bin'
+[10.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.ps1'
+[10.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.dsv'
+[10.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.sh'
+[10.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.bash'
+[10.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.zsh'
+[10.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/colcon-core/packages/current_target_message)
+[10.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(current_target_message)
+[10.091s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message' for CMake module files
+[10.092s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message' for CMake config files
+[10.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'cmake_prefix_path')
+[10.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.ps1'
+[10.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.dsv'
+[10.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/cmake_prefix_path.sh'
+[10.094s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib'
+[10.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'ld_library_path_lib')
+[10.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.ps1'
+[10.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.dsv'
+[10.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/ld_library_path_lib.sh'
+[10.096s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/bin'
+[10.096s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/pkgconfig/current_target_message.pc'
+[10.096s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages'
+[10.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('current_target_message', 'pythonpath')
+[10.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.ps1'
+[10.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.dsv'
+[10.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/hook/pythonpath.sh'
+[10.099s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/bin'
+[10.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.ps1'
+[10.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.dsv'
+[10.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.sh'
+[10.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.bash'
+[10.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.zsh'
+[10.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/colcon-core/packages/current_target_message)
+[10.103s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target' with build type 'ament_python'
+[10.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_multi_target', 'ament_prefix_path')
+[10.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/ament_prefix_path.ps1'
+[10.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/ament_prefix_path.dsv'
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/ament_prefix_path.sh'
+[10.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target'
+[10.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target': AMENT_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target' for CMake module files
+[11.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target' returned '0': AMENT_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data
+[11.909s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target' for CMake config files
+[11.910s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib'
+[11.910s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/bin'
+[11.910s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/pkgconfig/turtle_multi_target.pc'
+[11.910s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages'
+[11.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_multi_target', 'pythonpath')
+[11.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/pythonpath.ps1'
+[11.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/pythonpath.dsv'
+[11.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/hook/pythonpath.sh'
+[11.912s] Level 1:colcon.colcon_core.environment:checking '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/bin'
+[11.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_multi_target)
+[11.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.ps1'
+[11.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.dsv'
+[11.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.sh'
+[11.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.bash'
+[11.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.zsh'
+[11.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/colcon-core/packages/turtle_multi_target)
+[11.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.915s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.923s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.948s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/local_setup.ps1'
+[11.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artem/Documents/3_course/robotics/task4/ex02b/install/_local_setup_util_ps1.py'
+[11.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/setup.ps1'
+[11.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/local_setup.sh'
+[11.953s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artem/Documents/3_course/robotics/task4/ex02b/install/_local_setup_util_sh.py'
+[11.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/setup.sh'
+[11.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/local_setup.bash'
+[11.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/setup.bash'
+[11.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/local_setup.zsh'
+[11.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/Documents/3_course/robotics/task4/ex02b/install/setup.zsh'

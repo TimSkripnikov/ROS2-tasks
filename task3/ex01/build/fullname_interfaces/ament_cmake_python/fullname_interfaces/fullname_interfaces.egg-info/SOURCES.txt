@@ -4,3 +4,7 @@ fullname_interfaces.egg-info/PKG-INFO
 fullname_interfaces.egg-info/SOURCES.txt
 fullname_interfaces.egg-info/dependency_links.txt
 fullname_interfaces.egg-info/top_level.txt
+fullname_interfaces/msg/__init__.py
+fullname_interfaces/msg/_full_name_message.py
+fullname_interfaces/srv/__init__.py
+fullname_interfaces/srv/_full_name_sum_service.py

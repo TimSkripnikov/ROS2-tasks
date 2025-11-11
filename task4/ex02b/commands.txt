@@ -1,0 +1,15 @@
+cd ~/Documents/3_course/robotics/task4/ex02b
+
+
+colcon build
+
+source ~/Documents/3_course/robotics/task4/ex02b/install/setup.bash
+
+ros2 run turtlesim turtlesim_node
+
+ros2 run turtlesim turtle_teleop_key
+
+ros2 run turtle_multi_target target_switcher
+
+ros2 run turtle_multi_target turtle_controller
+

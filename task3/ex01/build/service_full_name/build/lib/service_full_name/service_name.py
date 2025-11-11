@@ -11,6 +11,7 @@ class MyService(Node):
 
     def summ_callback(self, request, response):
         response.full_name = request.last_name + ' ' + request.name + ' ' + request.first_name
+        self.get_logger().info(request.last_name + ' ' + request.name + ' ' + request.first_name)
         return response
 
 def main():

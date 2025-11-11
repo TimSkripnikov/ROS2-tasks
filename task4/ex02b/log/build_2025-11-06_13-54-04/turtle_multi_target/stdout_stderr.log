@@ -1,0 +1,49 @@
+running egg_info
+creating ../build/turtle_multi_target/turtle_multi_target.egg-info
+writing ../build/turtle_multi_target/turtle_multi_target.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_multi_target/turtle_multi_target.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_multi_target/turtle_multi_target.egg-info/entry_points.txt
+writing requirements to ../build/turtle_multi_target/turtle_multi_target.egg-info/requires.txt
+writing top-level names to ../build/turtle_multi_target/turtle_multi_target.egg-info/top_level.txt
+writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+reading manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+copying turtle_multi_target/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+copying turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+copying turtle_multi_target/target_switcher.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+copying turtle_multi_target/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+running install
+running install_lib
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/target_switcher.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_controller.py to turtle_controller.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/target_switcher.py to target_switcher.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+running install_data
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index/packages
+copying resource/turtle_multi_target -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index/packages
+copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+copying launch/turtle_tf2_multi_target.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+copying launch/turtle_tf2_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/rviz
+copying rviz/multi_carrot.rviz -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/rviz
+running install_egg_info
+Copying ../build/turtle_multi_target/turtle_multi_target.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info
+running install_scripts
+Installing target_switcher script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+Installing turtle_controller script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log'

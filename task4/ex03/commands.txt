@@ -1,0 +1,10 @@
+cd ~/Documents/3_course/robotics/task4/ex03
+
+
+colcon build
+
+source ~/Documents/3_course/robotics/task4/ex03/install/setup.bash
+
+ros2 launch delayed_turtle delayed_turtle.launch.py
+
+ros2 launch delayed_turtle delayed_turtle.launch.py delay:=3.0

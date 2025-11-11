@@ -1,0 +1,46 @@
+[1.261s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex03/delayed_turtle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/delayed_turtle build --build-base /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build install --record /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/install.log --single-version-externally-managed install_data
+[1.775s] running egg_info
+[1.775s] creating ../build/delayed_turtle/delayed_turtle.egg-info
+[1.810s] writing ../build/delayed_turtle/delayed_turtle.egg-info/PKG-INFO
+[1.811s] writing dependency_links to ../build/delayed_turtle/delayed_turtle.egg-info/dependency_links.txt
+[1.811s] writing entry points to ../build/delayed_turtle/delayed_turtle.egg-info/entry_points.txt
+[1.811s] writing requirements to ../build/delayed_turtle/delayed_turtle.egg-info/requires.txt
+[1.812s] writing top-level names to ../build/delayed_turtle/delayed_turtle.egg-info/top_level.txt
+[1.812s] writing manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+[1.880s] reading manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+[1.881s] adding license file 'LICENSE'
+[1.882s] writing manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+[1.882s] running build
+[1.882s] running build_py
+[1.883s] creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build
+[1.883s] creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib
+[1.883s] creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+[1.883s] copying delayed_turtle/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+[1.883s] copying delayed_turtle/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+[1.883s] copying delayed_turtle/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+[1.884s] running install
+[1.896s] running install_lib
+[1.929s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+[1.929s] copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+[1.930s] copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+[1.930s] copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+[1.931s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[1.933s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/__init__.py to __init__.cpython-312.pyc
+[1.934s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[1.935s] running install_data
+[1.936s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index
+[1.936s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index
+[1.936s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index/packages
+[1.936s] copying resource/delayed_turtle -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index/packages
+[1.936s] copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle
+[1.937s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/launch
+[1.937s] copying launch/delayed_turtle.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/launch
+[1.937s] creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/rviz
+[1.937s] copying rviz/delayed_turtle.rviz -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/rviz
+[1.937s] running install_egg_info
+[1.973s] Copying ../build/delayed_turtle/delayed_turtle.egg-info to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle-0.0.0-py3.12.egg-info
+[1.974s] running install_scripts
+[2.196s] Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/delayed_turtle
+[2.197s] Installing turtle_tf2_listener script to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/delayed_turtle
+[2.197s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/install.log'
+[2.257s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex03/delayed_turtle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/delayed_turtle build --build-base /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build install --record /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/install.log --single-version-externally-managed install_data

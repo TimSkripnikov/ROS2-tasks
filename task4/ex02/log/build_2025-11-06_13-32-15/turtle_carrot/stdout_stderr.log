@@ -1,0 +1,49 @@
+running egg_info
+creating ../build/turtle_carrot/turtle_carrot.egg-info
+writing ../build/turtle_carrot/turtle_carrot.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_carrot/turtle_carrot.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_carrot/turtle_carrot.egg-info/entry_points.txt
+writing requirements to ../build/turtle_carrot/turtle_carrot.egg-info/requires.txt
+writing top-level names to ../build/turtle_carrot/turtle_carrot.egg-info/top_level.txt
+writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+reading manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build
+creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib
+creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+copying turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+copying turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+copying turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+copying turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+running install
+running install_lib
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+running install_data
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages
+copying resource/turtle_carrot -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages
+copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+copying launch/turtle_tf2_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz
+copying rviz/carrot.rviz -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz
+running install_egg_info
+Copying ../build/turtle_carrot/turtle_carrot.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dynamic_frame_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+Installing turtle_tf2_listener script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log'

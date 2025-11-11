@@ -1,0 +1,51 @@
+[1.603s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02/turtle_carrot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_carrot build --build-base /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build install --record /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log --single-version-externally-managed install_data
+[1.996s] running egg_info
+[1.996s] creating ../build/turtle_carrot/turtle_carrot.egg-info
+[2.021s] writing ../build/turtle_carrot/turtle_carrot.egg-info/PKG-INFO
+[2.021s] writing dependency_links to ../build/turtle_carrot/turtle_carrot.egg-info/dependency_links.txt
+[2.021s] writing entry points to ../build/turtle_carrot/turtle_carrot.egg-info/entry_points.txt
+[2.022s] writing requirements to ../build/turtle_carrot/turtle_carrot.egg-info/requires.txt
+[2.022s] writing top-level names to ../build/turtle_carrot/turtle_carrot.egg-info/top_level.txt
+[2.022s] writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+[2.068s] reading manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+[2.068s] adding license file 'LICENSE'
+[2.069s] writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'
+[2.069s] running build
+[2.070s] running build_py
+[2.070s] creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build
+[2.070s] creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib
+[2.070s] creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+[2.070s] copying turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+[2.070s] copying turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+[2.070s] copying turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+[2.070s] copying turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot
+[2.070s] running install
+[2.080s] running install_lib
+[2.102s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+[2.102s] copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+[2.103s] copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+[2.103s] copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+[2.103s] copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot
+[2.103s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[2.104s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc
+[2.105s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/__init__.py to __init__.cpython-312.pyc
+[2.106s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[2.107s] running install_data
+[2.107s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index
+[2.107s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index
+[2.107s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages
+[2.107s] copying resource/turtle_carrot -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages
+[2.107s] copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot
+[2.107s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+[2.107s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+[2.107s] copying launch/turtle_tf2_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch
+[2.108s] creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz
+[2.108s] copying rviz/carrot.rviz -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz
+[2.108s] running install_egg_info
+[2.138s] Copying ../build/turtle_carrot/turtle_carrot.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot-0.0.0-py3.12.egg-info
+[2.139s] running install_scripts
+[2.301s] Installing dynamic_frame_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+[2.301s] Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+[2.301s] Installing turtle_tf2_listener script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot
+[2.302s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log'
+[2.355s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02/turtle_carrot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_carrot build --build-base /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build install --record /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log --single-version-externally-managed install_data

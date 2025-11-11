@@ -1,0 +1,51 @@
+[1.106s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target': AMENT_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data
+[1.452s] running egg_info
+[1.452s] creating ../build/turtle_multi_target/turtle_multi_target.egg-info
+[1.474s] writing ../build/turtle_multi_target/turtle_multi_target.egg-info/PKG-INFO
+[1.475s] writing dependency_links to ../build/turtle_multi_target/turtle_multi_target.egg-info/dependency_links.txt
+[1.475s] writing entry points to ../build/turtle_multi_target/turtle_multi_target.egg-info/entry_points.txt
+[1.475s] writing requirements to ../build/turtle_multi_target/turtle_multi_target.egg-info/requires.txt
+[1.475s] writing top-level names to ../build/turtle_multi_target/turtle_multi_target.egg-info/top_level.txt
+[1.476s] writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+[1.527s] reading manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+[1.528s] adding license file 'LICENSE'
+[1.528s] writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+[1.529s] running build
+[1.529s] running build_py
+[1.529s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build
+[1.529s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib
+[1.529s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.530s] copying turtle_multi_target/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.530s] copying turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.530s] copying turtle_multi_target/target_switcher.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.530s] copying turtle_multi_target/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.530s] running install
+[1.540s] running install_lib
+[1.563s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.563s] copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.564s] copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.564s] copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/target_switcher.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.564s] copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.564s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/__init__.py to __init__.cpython-312.pyc
+[1.565s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.567s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/target_switcher.py to target_switcher.cpython-312.pyc
+[1.568s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[1.569s] running install_data
+[1.569s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index
+[1.569s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index
+[1.569s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index/packages
+[1.569s] copying resource/turtle_multi_target -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/ament_index/resource_index/packages
+[1.570s] copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target
+[1.570s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+[1.570s] copying launch/turtle_tf2_multi_target.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+[1.570s] copying launch/turtle_tf2_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/launch
+[1.570s] creating /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/rviz
+[1.570s] copying rviz/multi_carrot.rviz -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/share/turtle_multi_target/rviz
+[1.570s] running install_egg_info
+[1.599s] Copying ../build/turtle_multi_target/turtle_multi_target.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info
+[1.600s] running install_scripts
+[1.762s] Installing target_switcher script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.763s] Installing turtle_controller script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.763s] Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.763s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log'
+[1.804s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target' returned '0': AMENT_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data

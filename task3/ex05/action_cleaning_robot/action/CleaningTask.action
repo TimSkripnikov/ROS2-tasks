@@ -1,8 +1,8 @@
 # goal definition
 string task_type        # "clean_square", "clean_circle", "return_home"
-float64 area_size       # размер области для уборки (сторона квадрата или радиус круга)
-float64 target_x        # целевая координата X (для return_home)
-float64 target_y        # целевая координата Y (для return_home)
+float64 area_size       # R or len
+float64 target_x       # start
+float64 target_y        
 ---
 # result definition
 bool success

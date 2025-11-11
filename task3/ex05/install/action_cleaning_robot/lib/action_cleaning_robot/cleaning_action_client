@@ -36,11 +36,11 @@ class CleaningActionClient(Node):
     def goal_response_callback(self, future):
         goal_handle = future.result()
         if not goal_handle.accepted:
-            self.get_logger().info('Goal rejected')
+            self.get_logger().info('Goal is rejected')
             self._result_available = True
             return
 
-        self.get_logger().info('Goal accepted')
+        self.get_logger().info('Goal is accepted')
         self._goal_handle = goal_handle
         
         self._get_result_future = goal_handle.get_result_async()
@@ -70,7 +70,7 @@ def main(args=None):
     action_client = CleaningActionClient()
     
     try:
-        action_client.get_logger().info('STARTING CLEANING TASKS')
+        action_client.get_logger().info('Start cleaning task!')
         
         action_client.get_logger().info('\nTask 1: Clean Square')
         action_client.send_goal('clean_square', area_size=3.0)
@@ -78,17 +78,17 @@ def main(args=None):
         
         time.sleep(2.0)
 
-        action_client.get_logger().info('\nTask 2: Clean Circle')
-        action_client.send_goal('clean_circle', area_size=2.0)
-        action_client.wait_for_result()
+        # action_client.get_logger().info('\nTask 2: Clean Circle')
+        # action_client.send_goal('clean_circle', area_size=2.0)
+        # action_client.wait_for_result()
         
-        time.sleep(2.0)
+        # time.sleep(2.0)
 
         action_client.get_logger().info('\nTask 3: Return Home')
         action_client.send_goal('return_home', target_x=5.5, target_y=5.5)
         action_client.wait_for_result()
         
-        action_client.get_logger().info('\n ALL TASKS COMPLETED!')
+        action_client.get_logger().info('\n All tasks are completed!')
         
     except KeyboardInterrupt:
         action_client.get_logger().info('Interrupted by user')

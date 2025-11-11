@@ -1,0 +1,27 @@
+[1.231s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages:/home/artem/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data
+[1.639s] running egg_info
+[1.666s] writing ../build/turtle_multi_target/turtle_multi_target.egg-info/PKG-INFO
+[1.667s] writing dependency_links to ../build/turtle_multi_target/turtle_multi_target.egg-info/dependency_links.txt
+[1.667s] writing entry points to ../build/turtle_multi_target/turtle_multi_target.egg-info/entry_points.txt
+[1.667s] writing requirements to ../build/turtle_multi_target/turtle_multi_target.egg-info/requires.txt
+[1.667s] writing top-level names to ../build/turtle_multi_target/turtle_multi_target.egg-info/top_level.txt
+[1.719s] reading manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+[1.719s] adding license file 'LICENSE'
+[1.720s] writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+[1.720s] running build
+[1.720s] running build_py
+[1.721s] copying turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+[1.721s] running install
+[1.731s] running install_lib
+[1.758s] copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[1.759s] byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.762s] running install_data
+[1.762s] running install_egg_info
+[1.790s] removing '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info' (and everything under it)
+[1.791s] Copying ../build/turtle_multi_target/turtle_multi_target.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info
+[1.792s] running install_scripts
+[1.976s] Installing target_switcher script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.976s] Installing turtle_controller script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.976s] Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+[1.977s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log'
+[2.022s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/turtle_multi_target' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages:/home/artem/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_multi_target build --build-base /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build install --record /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log --single-version-externally-managed install_data

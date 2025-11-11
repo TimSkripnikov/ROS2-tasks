@@ -170,11 +170,11 @@ class CleaningActionServer(Node):
                 twist.linear.x = 0.0
                 twist.angular.z = 2.0 if angle_diff > 0 else -2.0
             else:
-                twist.linear.x = min(2.0, max(0.5, distance * 2.0))
-                twist.angular.z = angle_diff * 1.0
+                twist.linear.x = min(1.0, max(0.5, distance * 2.0))
+                twist.angular.z = 0.0 #angle_diff * 1.0
             
             self.cmd_vel_pub.publish(twist)
-            rclpy.spin_once(self, timeout_sec=0.05)
+            rclpy.spin_once(self, timeout_sec=0.01)
         
         self.stop_robot()
         return math.sqrt((self.current_pose.x - start_x)**2 + (self.current_pose.y - start_y)**2)

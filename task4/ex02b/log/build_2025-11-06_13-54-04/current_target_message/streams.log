@@ -1,0 +1,232 @@
+[0.018s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message -DCMAKE_INSTALL_PREFIX=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message
+[0.267s] -- The C compiler identification is GNU 13.3.0
+[0.443s] -- The CXX compiler identification is GNU 13.3.0
+[0.480s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.675s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.676s] -- Detecting C compile features
+[0.677s] -- Detecting C compile features - done
+[0.697s] -- Detecting CXX compiler ABI info
+[0.882s] -- Detecting CXX compiler ABI info - done
+[0.900s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.901s] -- Detecting CXX compile features
+[0.902s] -- Detecting CXX compile features - done
+[0.912s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.228s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.481s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.576s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.611s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.785s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.813s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.821s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.902s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.688s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.906s] -- Found PythonExtra: /usr/bin/python3  
+[5.579s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.661s] -- Added test 'lint_cmake' to check CMake code style
+[5.664s] -- Added test 'xmllint' to check XML markup files
+[5.675s] -- Configuring done (5.6s)
+[5.736s] -- Generating done (0.0s)
+[5.758s] -- Build files have been written to: /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message
+[5.774s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/artem/Documents/3_course/robotics/task4/ex02b/current_target_message -DCMAKE_INSTALL_PREFIX=/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message
+[5.777s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message -- -j12 -l12
+[5.867s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.881s] [  2%] Built target ament_cmake_python_copy_current_target_message
+[6.256s] [  2%] Built target current_target_message__rosidl_generator_type_description
+[6.271s] running egg_info
+[6.273s] creating current_target_message.egg-info
+[6.278s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.297s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.313s] writing current_target_message.egg-info/PKG-INFO
+[6.314s] writing dependency_links to current_target_message.egg-info/dependency_links.txt
+[6.314s] writing top-level names to current_target_message.egg-info/top_level.txt
+[6.315s] writing manifest file 'current_target_message.egg-info/SOURCES.txt'
+[6.414s] reading manifest file 'current_target_message.egg-info/SOURCES.txt'
+[6.415s] writing manifest file 'current_target_message.egg-info/SOURCES.txt'
+[6.470s] [  8%] Built target ament_cmake_python_build_current_target_message_egg
+[6.743s] [  8%] Built target current_target_message__cpp
+[6.783s] [ 11%] [32mBuilding C object CMakeFiles/current_target_message__rosidl_generator_c.dir/rosidl_generator_c/current_target_message/msg/detail/current_target__description.c.o[0m
+[6.784s] [ 17%] [32mBuilding C object CMakeFiles/current_target_message__rosidl_generator_c.dir/rosidl_generator_c/current_target_message/msg/detail/current_target__functions.c.o[0m
+[6.784s] [ 17%] [32mBuilding C object CMakeFiles/current_target_message__rosidl_generator_c.dir/rosidl_generator_c/current_target_message/msg/detail/current_target__type_support.c.o[0m
+[6.894s] [ 20%] [32m[1mLinking C shared library libcurrent_target_message__rosidl_generator_c.so[0m
+[6.952s] [ 20%] Built target current_target_message__rosidl_generator_c
+[6.969s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.969s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.970s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.973s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.973s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.975s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.466s] [ 41%] [32mBuilding CXX object CMakeFiles/current_target_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/current_target_message/msg/current_target__type_support.cpp.o[0m
+[7.474s] [ 44%] [32mBuilding CXX object CMakeFiles/current_target_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/current_target_message/msg/current_target__type_support.cpp.o[0m
+[7.510s] [ 47%] [32mBuilding CXX object CMakeFiles/current_target_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/current_target_message/msg/detail/dds_fastrtps/current_target__type_support.cpp.o[0m
+[7.521s] [ 50%] [32mBuilding CXX object CMakeFiles/current_target_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/current_target_message/msg/detail/current_target__type_support_c.cpp.o[0m
+[7.566s] [ 52%] [32m[1mLinking CXX shared library libcurrent_target_message__rosidl_typesupport_c.so[0m
+[7.585s] [ 55%] [32mBuilding CXX object CMakeFiles/current_target_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/current_target_message/msg/detail/current_target__type_support.cpp.o[0m
+[7.643s] [ 58%] [32mBuilding C object CMakeFiles/current_target_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/current_target_message/msg/detail/current_target__type_support.c.o[0m
+[7.666s] [ 58%] Built target current_target_message__rosidl_typesupport_c
+[7.714s] [ 61%] [32m[1mLinking C shared library libcurrent_target_message__rosidl_typesupport_introspection_c.so[0m
+[7.776s] [ 61%] Built target current_target_message__rosidl_typesupport_introspection_c
+[8.080s] [ 64%] [32m[1mLinking CXX shared library libcurrent_target_message__rosidl_typesupport_cpp.so[0m
+[8.159s] [ 64%] Built target current_target_message__rosidl_typesupport_cpp
+[8.192s] [ 67%] [32m[1mLinking CXX shared library libcurrent_target_message__rosidl_typesupport_introspection_cpp.so[0m
+[8.309s] [ 67%] Built target current_target_message__rosidl_typesupport_introspection_cpp
+[8.366s] [ 70%] [32m[1mLinking CXX shared library libcurrent_target_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.371s] [ 73%] [32m[1mLinking CXX shared library libcurrent_target_message__rosidl_typesupport_fastrtps_c.so[0m
+[8.506s] [ 73%] Built target current_target_message__rosidl_typesupport_fastrtps_c
+[8.507s] [ 73%] Built target current_target_message__rosidl_typesupport_fastrtps_cpp
+[8.540s] [ 73%] Built target current_target_message
+[8.573s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.989s] [ 76%] Built target current_target_message__py
+[9.022s] [ 79%] [32mBuilding C object CMakeFiles/current_target_message__rosidl_generator_py.dir/rosidl_generator_py/current_target_message/msg/_current_target_s.c.o[0m
+[9.250s] [ 82%] [32m[1mLinking C shared library libcurrent_target_message__rosidl_generator_py.so[0m
+[9.316s] [ 82%] Built target current_target_message__rosidl_generator_py
+[9.349s] [ 85%] [32mBuilding C object CMakeFiles/current_target_message_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/current_target_message/_current_target_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.350s] [ 88%] [32mBuilding C object CMakeFiles/current_target_message_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/current_target_message/_current_target_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.350s] [ 91%] [32mBuilding C object CMakeFiles/current_target_message_s__rosidl_typesupport_c.dir/rosidl_generator_py/current_target_message/_current_target_message_s.ep.rosidl_typesupport_c.c.o[0m
+[9.528s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/current_target_message/current_target_message_s__rosidl_typesupport_c.so[0m
+[9.528s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/current_target_message/current_target_message_s__rosidl_typesupport_introspection_c.so[0m
+[9.530s] [100%] [32m[1mLinking C shared module rosidl_generator_py/current_target_message/current_target_message_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.582s] [100%] Built target current_target_message_s__rosidl_typesupport_c
+[9.584s] [100%] Built target current_target_message_s__rosidl_typesupport_introspection_c
+[9.587s] [100%] Built target current_target_message_s__rosidl_typesupport_fastrtps_c
+[9.605s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message -- -j12 -l12
+[9.622s] Invoking command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message
+[9.636s] -- Install configuration: ""
+[9.637s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/ament_index/resource_index/rosidl_interfaces/current_target_message
+[9.637s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/msg/CurrentTarget.json
+[9.637s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.637s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.637s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/rosidl_generator_c__visibility_control.h
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/current_target.h
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__struct.h
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__functions.h
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__description.c
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__type_support.c
+[9.638s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__type_support.h
+[9.639s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__functions.c
+[9.639s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/library_path.sh
+[9.639s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/library_path.dsv
+[9.639s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_generator_c.so
+[9.640s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_generator_c.so" to ""
+[9.640s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.640s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.641s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.641s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.641s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__rosidl_typesupport_fastrtps_c.h
+[9.641s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_fastrtps_c.so
+[9.642s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_fastrtps_c.so" to ""
+[9.642s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.642s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.643s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/current_target.hpp
+[9.643s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.643s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.643s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__builder.hpp
+[9.644s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__traits.hpp
+[9.644s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__struct.hpp
+[9.644s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__type_support.hpp
+[9.644s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.645s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.645s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.645s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.645s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__rosidl_typesupport_fastrtps_cpp.hpp
+[9.645s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/dds_fastrtps
+[9.646s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_fastrtps_cpp.so
+[9.646s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.646s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.646s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.646s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.647s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.647s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__rosidl_typesupport_introspection_c.h
+[9.647s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__type_support.c
+[9.647s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_introspection_c.so
+[9.648s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_introspection_c.so" to ""
+[9.648s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_c.so
+[9.648s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_c.so" to ""
+[9.648s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message
+[9.649s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg
+[9.649s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail
+[9.649s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__rosidl_typesupport_introspection_cpp.hpp
+[9.649s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/include/current_target_message/current_target_message/msg/detail/current_target__type_support.cpp
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_introspection_cpp.so
+[9.650s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_introspection_cpp.so" to ""
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_cpp.so
+[9.650s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_typesupport_cpp.so" to ""
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/pythonpath.sh
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/pythonpath.dsv
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message-0.0.0-py3.12.egg-info
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message-0.0.0-py3.12.egg-info/PKG-INFO
+[9.650s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message-0.0.0-py3.12.egg-info/top_level.txt
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/_current_target_message_s.ep.rosidl_typesupport_introspection_c.c
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_c.so
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/_current_target_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/__init__.py
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_introspection_c.so
+[9.651s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg
+[9.652s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg/__init__.py
+[9.652s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg/_current_target.py
+[9.652s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg/_current_target_s.c
+[9.652s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/_current_target_message_s.ep.rosidl_typesupport_c.c
+[9.652s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_fastrtps_c.so
+[9.710s] Listing '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message'...
+[9.710s] Compiling '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/__init__.py'...
+[9.710s] Listing '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg'...
+[9.710s] Compiling '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg/__init__.py'...
+[9.710s] Compiling '/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/msg/_current_target.py'...
+[9.718s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_fastrtps_c.so
+[9.718s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_introspection_c.so
+[9.719s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_introspection_c.so" to ""
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_c.so
+[9.719s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/python3.12/site-packages/current_target_message/current_target_message_s__rosidl_typesupport_c.so" to ""
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_generator_py.so
+[9.719s] -- Set non-toolchain portion of runtime path of "/home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/lib/libcurrent_target_message__rosidl_generator_py.so" to ""
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/msg/CurrentTarget.idl
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/msg/CurrentTarget.msg
+[9.719s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/ament_index/resource_index/package_run_dependencies/current_target_message
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/ament_index/resource_index/parent_prefix_path/current_target_message
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/ament_prefix_path.sh
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/ament_prefix_path.dsv
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/path.sh
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/environment/path.dsv
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/local_setup.bash
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/local_setup.sh
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/local_setup.zsh
+[9.720s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/local_setup.dsv
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.dsv
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/ament_index/resource_index/packages/current_target_message
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_generator_cExport.cmake
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_generator_cExport-noconfig.cmake
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_typesupport_fastrtps_cExport.cmake
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_generator_cppExport.cmake
+[9.721s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_introspection_cExport.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_cExport.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_cExport-noconfig.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_introspection_cppExport.cmake
+[9.722s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_cppExport.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_message__rosidl_typesupport_cppExport-noconfig.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_generator_pyExport.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/export_current_target_message__rosidl_generator_pyExport-noconfig.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/rosidl_cmake-extras.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/ament_cmake_export_libraries-extras.cmake
+[9.723s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/ament_cmake_export_targets-extras.cmake
+[9.724s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.724s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.724s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_messageConfig.cmake
+[9.724s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/cmake/current_target_messageConfig-version.cmake
+[9.724s] -- Installing: /home/artem/Documents/3_course/robotics/task4/ex02b/install/current_target_message/share/current_target_message/package.xml
+[9.727s] Invoked command in '/home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task4/ex02b/build/current_target_message

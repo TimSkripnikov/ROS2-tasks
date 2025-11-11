@@ -1,0 +1,44 @@
+running egg_info
+creating ../build/delayed_turtle/delayed_turtle.egg-info
+writing ../build/delayed_turtle/delayed_turtle.egg-info/PKG-INFO
+writing dependency_links to ../build/delayed_turtle/delayed_turtle.egg-info/dependency_links.txt
+writing entry points to ../build/delayed_turtle/delayed_turtle.egg-info/entry_points.txt
+writing requirements to ../build/delayed_turtle/delayed_turtle.egg-info/requires.txt
+writing top-level names to ../build/delayed_turtle/delayed_turtle.egg-info/top_level.txt
+writing manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+reading manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/delayed_turtle/delayed_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build
+creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib
+creating /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+copying delayed_turtle/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+copying delayed_turtle/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+copying delayed_turtle/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle
+running install
+running install_lib
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+copying /home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/build/lib/delayed_turtle/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+running install_data
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index/packages
+copying resource/delayed_turtle -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/launch
+copying launch/delayed_turtle.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/launch
+creating /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/rviz
+copying rviz/delayed_turtle.rviz -> /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/share/delayed_turtle/rviz
+running install_egg_info
+Copying ../build/delayed_turtle/delayed_turtle.egg-info to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/python3.12/site-packages/delayed_turtle-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/delayed_turtle
+Installing turtle_tf2_listener script to /home/artem/Documents/3_course/robotics/task4/ex03/install/delayed_turtle/lib/delayed_turtle
+writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex03/build/delayed_turtle/install.log'

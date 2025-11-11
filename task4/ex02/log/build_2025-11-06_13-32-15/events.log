@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (turtle_carrot) JobQueued: {'identifier': 'turtle_carrot', 'dependencies': OrderedDict()}
+[0.000353] (turtle_carrot) JobStarted: {'identifier': 'turtle_carrot'}
+[0.099106] (-) TimerEvent: {}
+[0.199727] (-) TimerEvent: {}
+[0.300507] (-) TimerEvent: {}
+[0.400935] (-) TimerEvent: {}
+[0.501409] (-) TimerEvent: {}
+[0.601935] (-) TimerEvent: {}
+[0.702423] (-) TimerEvent: {}
+[0.802870] (-) TimerEvent: {}
+[0.903389] (-) TimerEvent: {}
+[1.003770] (-) TimerEvent: {}
+[1.104207] (-) TimerEvent: {}
+[1.204646] (-) TimerEvent: {}
+[1.305153] (-) TimerEvent: {}
+[1.405536] (-) TimerEvent: {}
+[1.506010] (-) TimerEvent: {}
+[1.600876] (turtle_carrot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/turtle_carrot', 'build', '--build-base', '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build', 'install', '--record', '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/artem/Documents/3_course/robotics/task4/ex02/turtle_carrot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,11482,0', 'USER': 'artem', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot/lib:/home/artem/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/artem', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/artem/Documents/3_course/robotics', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3583', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/artem/Documents/3_course/robotics/task3/ex05/install:/home/artem/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'artem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'artem', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/artem/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/artem-MCLF-XX:@/tmp/.ICE-unix/3372,unix/artem-MCLF-XX:/tmp/.ICE-unix/3372', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d54485d_52fe_4b8c_9771_a09271742589', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3NX6E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.245', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot:/home/artem/ros2_ws/install/turtlesim:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/artem/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/artem/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/artem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages:/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages:/home/artem/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/artem/Documents/3_course/robotics/task3/ex05/install/action_cleaning_robot:/home/artem/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.606094] (-) TimerEvent: {}
+[1.706506] (-) TimerEvent: {}
+[1.806983] (-) TimerEvent: {}
+[1.907424] (-) TimerEvent: {}
+[1.996192] (turtle_carrot) StdoutLine: {'line': b'running egg_info\n'}
+[1.996693] (turtle_carrot) StdoutLine: {'line': b'creating ../build/turtle_carrot/turtle_carrot.egg-info\n'}
+[2.007597] (-) TimerEvent: {}
+[2.021225] (turtle_carrot) StdoutLine: {'line': b'writing ../build/turtle_carrot/turtle_carrot.egg-info/PKG-INFO\n'}
+[2.021581] (turtle_carrot) StdoutLine: {'line': b'writing dependency_links to ../build/turtle_carrot/turtle_carrot.egg-info/dependency_links.txt\n'}
+[2.021730] (turtle_carrot) StdoutLine: {'line': b'writing entry points to ../build/turtle_carrot/turtle_carrot.egg-info/entry_points.txt\n'}
+[2.021864] (turtle_carrot) StdoutLine: {'line': b'writing requirements to ../build/turtle_carrot/turtle_carrot.egg-info/requires.txt\n'}
+[2.021967] (turtle_carrot) StdoutLine: {'line': b'writing top-level names to ../build/turtle_carrot/turtle_carrot.egg-info/top_level.txt\n'}
+[2.022106] (turtle_carrot) StdoutLine: {'line': b"writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'\n"}
+[2.068452] (turtle_carrot) StdoutLine: {'line': b"reading manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'\n"}
+[2.068635] (turtle_carrot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.069372] (turtle_carrot) StdoutLine: {'line': b"writing manifest file '../build/turtle_carrot/turtle_carrot.egg-info/SOURCES.txt'\n"}
+[2.069678] (turtle_carrot) StdoutLine: {'line': b'running build\n'}
+[2.069867] (turtle_carrot) StdoutLine: {'line': b'running build_py\n'}
+[2.069968] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build\n'}
+[2.070056] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib\n'}
+[2.070133] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot\n'}
+[2.070205] (turtle_carrot) StdoutLine: {'line': b'copying turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot\n'}
+[2.070317] (turtle_carrot) StdoutLine: {'line': b'copying turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot\n'}
+[2.070391] (turtle_carrot) StdoutLine: {'line': b'copying turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot\n'}
+[2.070458] (turtle_carrot) StdoutLine: {'line': b'copying turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot\n'}
+[2.070520] (turtle_carrot) StdoutLine: {'line': b'running install\n'}
+[2.079897] (turtle_carrot) StdoutLine: {'line': b'running install_lib\n'}
+[2.102427] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot\n'}
+[2.102607] (turtle_carrot) StdoutLine: {'line': b'copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_listener.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot\n'}
+[2.102843] (turtle_carrot) StdoutLine: {'line': b'copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/dynamic_frame_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot\n'}
+[2.103018] (turtle_carrot) StdoutLine: {'line': b'copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/__init__.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot\n'}
+[2.103098] (turtle_carrot) StdoutLine: {'line': b'copying /home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/build/lib/turtle_carrot/turtle_tf2_broadcaster.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot\n'}
+[2.103424] (turtle_carrot) StdoutLine: {'line': b'byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc\n'}
+[2.104746] (turtle_carrot) StdoutLine: {'line': b'byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc\n'}
+[2.105683] (turtle_carrot) StdoutLine: {'line': b'byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/__init__.py to __init__.cpython-312.pyc\n'}
+[2.105891] (turtle_carrot) StdoutLine: {'line': b'byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc\n'}
+[2.106807] (turtle_carrot) StdoutLine: {'line': b'running install_data\n'}
+[2.106909] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index\n'}
+[2.107037] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index\n'}
+[2.107119] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages\n'}
+[2.107221] (turtle_carrot) StdoutLine: {'line': b'copying resource/turtle_carrot -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/ament_index/resource_index/packages\n'}
+[2.107324] (turtle_carrot) StdoutLine: {'line': b'copying package.xml -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot\n'}
+[2.107424] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch\n'}
+[2.107524] (turtle_carrot) StdoutLine: {'line': b'copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch\n'}
+[2.107605] (-) TimerEvent: {}
+[2.107738] (turtle_carrot) StdoutLine: {'line': b'copying launch/turtle_tf2_demo.launch.py -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/launch\n'}
+[2.107834] (turtle_carrot) StdoutLine: {'line': b'creating /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz\n'}
+[2.107908] (turtle_carrot) StdoutLine: {'line': b'copying rviz/carrot.rviz -> /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/share/turtle_carrot/rviz\n'}
+[2.108059] (turtle_carrot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.137771] (turtle_carrot) StdoutLine: {'line': b'Copying ../build/turtle_carrot/turtle_carrot.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/python3.12/site-packages/turtle_carrot-0.0.0-py3.12.egg-info\n'}
+[2.138814] (turtle_carrot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.207777] (-) TimerEvent: {}
+[2.301213] (turtle_carrot) StdoutLine: {'line': b'Installing dynamic_frame_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot\n'}
+[2.301484] (turtle_carrot) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot\n'}
+[2.301567] (turtle_carrot) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/artem/Documents/3_course/robotics/task4/ex02/install/turtle_carrot/lib/turtle_carrot\n'}
+[2.301809] (turtle_carrot) StdoutLine: {'line': b"writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02/build/turtle_carrot/install.log'\n"}
+[2.308011] (-) TimerEvent: {}
+[2.354548] (turtle_carrot) CommandEnded: {'returncode': 0}
+[2.369026] (turtle_carrot) JobEnded: {'identifier': 'turtle_carrot', 'rc': 0}
+[2.370111] (-) EventReactorShutdown: {}

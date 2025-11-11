@@ -1,0 +1,4 @@
+[console_scripts]
+target_switcher = turtle_multi_target.target_switcher:main
+turtle_controller = turtle_multi_target.turtle_controller:main
+turtle_tf2_broadcaster = turtle_multi_target.turtle_tf2_broadcaster:main

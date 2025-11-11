@@ -1,0 +1,25 @@
+running egg_info
+writing ../build/turtle_multi_target/turtle_multi_target.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_multi_target/turtle_multi_target.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_multi_target/turtle_multi_target.egg-info/entry_points.txt
+writing requirements to ../build/turtle_multi_target/turtle_multi_target.egg-info/requires.txt
+writing top-level names to ../build/turtle_multi_target/turtle_multi_target.egg-info/top_level.txt
+reading manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/turtle_multi_target/turtle_multi_target.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target
+running install
+running install_lib
+copying /home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/build/lib/turtle_multi_target/turtle_controller.py -> /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+byte-compiling /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_controller.py to turtle_controller.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/turtle_multi_target/turtle_multi_target.egg-info to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info
+running install_scripts
+Installing target_switcher script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+Installing turtle_controller script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+Installing turtle_tf2_broadcaster script to /home/artem/Documents/3_course/robotics/task4/ex02b/install/turtle_multi_target/lib/turtle_multi_target
+writing list of installed files to '/home/artem/Documents/3_course/robotics/task4/ex02b/build/turtle_multi_target/install.log'
