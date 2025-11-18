@@ -13,13 +13,7 @@ class TargetSwitcher(Node):
 
     def __init__(self, radius, direction):
         super().__init__('target_switcher')
-
-        # self.declare_parameter('radius', 2.0)
-        # self.declare_parameter('direction_of_rotation', 1)
-
-        # self.radius = self.get_parameter('radius').get_parameter_value().double_value
-        # self.direction = int(self.get_parameter('direction_of_rotation').get_parameter_value().integer_value)
-
+        
         self.radius = radius
         self.direction = direction
 

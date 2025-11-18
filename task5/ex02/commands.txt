@@ -1,0 +1,14 @@
+cd ~/Documents/3_course/robotics/task5/ex01
+
+ros2 pkg create --build-type ament_cmake sam_bot_description
+
+colcon build
+
+source ~/Documents/3_course/robotics/task5/ex01/install/setup.bash
+
+ros2 launch sam_bot_description display.launch.py
+
+
+Task:
+cd ~/Documents/3_course/robotics/task5/ex01/sam_bot_description/urdf
+xacro robot.urdf.xacro > robot.urdf

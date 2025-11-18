@@ -4,7 +4,7 @@
   <name>current_target_message</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="lev@todo.todo">lev</maintainer>
+  <maintainer email="a.skripnikov@g.nsu.ru">artem</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

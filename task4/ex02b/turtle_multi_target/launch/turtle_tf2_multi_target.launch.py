@@ -42,16 +42,17 @@ def generate_launch_description():
                 {'radius': LaunchConfiguration('radius')},
                 {'direction_of_rotation': LaunchConfiguration('direction_of_rotation')}
             ]
-        ),
-
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            arguments=['-d', os.path.join(
-                get_package_share_directory('turtle_multi_target'),
-                'config',
-                'multi_carrot.rviz'
-            )]
         )
+        # ,
+
+        # Node(
+        #     package='rviz2',
+        #     executable='rviz2',
+        #     name='rviz2',
+        #     arguments=['-d', os.path.join(
+        #         get_package_share_directory('turtle_multi_target'),
+        #         'config',
+        #         'multi_carrot.rviz'
+        #     )]
+        # )
     ])
