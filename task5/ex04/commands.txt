@@ -1,0 +1,7 @@
+source ~/Documents/3_course/robotics/task5/ex03/install/setup.bash
+source ~/Documents/3_course/robotics/task5/ex04/install/setup.bash
+
+
+ros2 launch robot_bringup diff_drive.launch.py
+
+ros2 run circle_moving circle_moving

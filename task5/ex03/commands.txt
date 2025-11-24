@@ -1,0 +1,21 @@
+cd ~/Documents/3_course/robotics/task5/ex03
+
+ros2 pkg create --build-type ament_cmake robot_description
+ros2 pkg create --build-type ament_cmake robot_bringup
+
+
+colcon build 
+
+source ~/Documents/3_course/robotics/task5/ex03/install/setup.bash
+
+ros2 launch robot_bringup diff_drive.launch.py
+
+окно с газебо, нажать на три точки выбрать поиск набрать teleop, пролистать вниз и где топик /cmd_vel переименовать в 
+/model/robot/cmd_vel
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros_args -r /cmd_vel:=/robot/cmd_vel
+
+ros2 run rqt_robot_steering rqt_robot_steering --force-discover
+
+
+
