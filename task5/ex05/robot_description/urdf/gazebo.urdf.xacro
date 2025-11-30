@@ -14,7 +14,11 @@
       <wheel_separation>0.297</wheel_separation>
       <wheel_radius>0.033</wheel_radius>
       <odom_publish_frequency>10</odom_publish_frequency>
-      <topic>cmd_vel</topic>
+      <topic>/model/robot/cmd_vel</topic>
+      <min_velocity>-1.0</min_velocity>
+      <max_velocity>1.0</max_velocity>
+      <min_acceleration>-1.0</min_acceleration>
+      <max_acceleration>1.0</max_acceleration>
     </plugin>
 
     <plugin filename="gz-sim-odometry-publisher-system" name="gz::sim::systems::OdometryPublisher">

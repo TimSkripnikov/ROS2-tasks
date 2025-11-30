@@ -1,0 +1,15 @@
+cd ~/Documents/3_course/robotics/task6/
+
+colcon build 
+
+source ~/Documents/3_course/robotics/task6/install/setup.bash
+
+ros2 launch robot_description robot_sensors.launch.py
+
+ros2 launch robot_description depth_stop.launch.py
+
+ros2 launch robot_description lidar_stop.launch.py
+
+
+
+

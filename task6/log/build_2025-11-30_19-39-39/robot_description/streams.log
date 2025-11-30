@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/artem/Documents/3_course/robotics/task6/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task6/build/robot_description -- -j12 -l12
+[0.041s] Invoked command in '/home/artem/Documents/3_course/robotics/task6/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/artem/Documents/3_course/robotics/task6/build/robot_description -- -j12 -l12
+[0.052s] Invoking command in '/home/artem/Documents/3_course/robotics/task6/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task6/build/robot_description
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src
+[0.058s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/worlds
+[0.058s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/worlds/ballbot_world.sdf
+[0.058s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/worlds/default.sdf
+[0.059s] -- Installing: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/worlds/sensors.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/models
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/models/ballbot.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/models/robot.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/models/sensors.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description/robot.urdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description/ballbot.urdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description/ballbot.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description/robot.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/src/description/sensors.sdf
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/robot_display.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/robot_sensors.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/lidar_stop.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/circle_movement.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/ballbot_gazebo.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/robot_gazebo.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/balance.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/depth_stop.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/launch/ballbot_display.launch.py
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/rviz
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/rviz/ballbot.rviz
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/rviz/robot.rviz
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/rviz/config.rviz
+[0.059s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/rviz/sensors.rviz
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/lib/robot_description/circle_movement.py
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/lib/robot_description/balance.py
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/lib/robot_description/lidar_stop.py
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/lib/robot_description/depth_camera_stop.py
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/environment/path.sh
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/environment/path.dsv
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/local_setup.bash
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/local_setup.sh
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/local_setup.zsh
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/local_setup.dsv
+[0.060s] -- Installing: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/package.dsv
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.060s] -- Up-to-date: /home/artem/Documents/3_course/robotics/task6/install/robot_description/share/robot_description/package.xml
+[0.061s] Invoked command in '/home/artem/Documents/3_course/robotics/task6/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/artem/Documents/3_course/robotics/task6/build/robot_description

@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<sdf version='1.11'>
+  <model name='ballbot'>
+    <link name='chassis'>
+      <inertial>
+        <pose>0 0 -0.23636363636363639 0 0 0</pose>
+        <mass>5.5</mass>
+        <inertia>
+          <ixx>0.48702060606060599</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.45928727272727282</iyy>
+          <iyz>7.8562139380718636e-18</iyz>
+          <izz>0.094293333333333326</izz>
+        </inertia>
+      </inertial>
+      <collision name='chassis_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40000000000000002</length>
+            <radius>0.16</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='chassis_fixed_joint_lump__head_collision_1'>
+        <pose>0 0 0.20000000000000001 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.16</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name='chassis_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40000000000000002</length>
+            <radius>0.16</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 1 1 1</diffuse>
+          <ambient>0 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='chassis_fixed_joint_lump__head_visual_1'>
+        <pose>0 0 0.20000000000000001 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.16</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <diffuse>1 0.712499976 0.187500015 1</diffuse>
+          <ambient>1 0.712499976 0.187500015 1</ambient>
+        </material>
+      </visual>
+    </link>
+
+    <joint name='ball_wheel_joint' type='ball'>
+      <pose relative_to='chassis'>0 0 -0.20000000000000001 0 0 0</pose>
+      <parent>chassis</parent>
+      <child>ball_wheel</child>
+    </joint>
+
+    <link name='ball_wheel'>
+      <pose relative_to='ball_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.032000000000000008</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.032000000000000008</iyy>
+          <iyz>0</iyz>
+          <izz>0.032000000000000008</izz>
+        </inertia>
+      </inertial>
+      <collision name='ball_wheel_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.20000000000000001</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name='ball_wheel_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.20000000000000001</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <diffuse>0.625 0.625 0.625 1</diffuse>
+          <ambient>0.625 0.625 0.625 1</ambient>
+        </material>
+      </visual>
+    </link>
+
+    <frame name='base_joint' attached_to='chassis'>
+      <pose>0 0 -0.40000000000000002 0 0 0</pose>
+    </frame>
+
+    <frame name='base_footprint' attached_to='base_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+
+    <frame name='head_joint' attached_to='chassis'>
+      <pose>0 0 0.20000000000000001 0 0 0</pose>
+    </frame>
+
+    <frame name='head' attached_to='head_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+
+    <plugin
+      filename="ignition-gazebo-diff-drive-system"
+      name="ignition::gazebo::systems::DiffDrive">
+      <left_joint>ball_wheel_joint</left_joint>
+      <right_joint>ball_wheel_joint</right_joint>
+      <wheel_separation>0.0001</wheel_separation>
+      <wheel_radius>0.2</wheel_radius>
+      <odom_publish_frequency>1</odom_publish_frequency>
+      <max_linear_acceleration>1</max_linear_acceleration>
+      <min_linear_acceleration>-1</min_linear_acceleration>
+      <max_angular_acceleration>2</max_angular_acceleration>
+      <min_angular_acceleration>-2</min_angular_acceleration>
+      <max_linear_velocity>0.5</max_linear_velocity>
+      <min_linear_velocity>-0.5</min_linear_velocity>
+      <max_angular_velocity>1</max_angular_velocity>
+      <min_angular_velocity>-1</min_angular_velocity>
+    </plugin>
+    
+  </model>
+</sdf>

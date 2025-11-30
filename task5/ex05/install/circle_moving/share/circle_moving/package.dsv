@@ -1,0 +1,6 @@
+source;share/circle_moving/hook/pythonpath.ps1
+source;share/circle_moving/hook/pythonpath.dsv
+source;share/circle_moving/hook/pythonpath.sh
+source;share/circle_moving/hook/ament_prefix_path.ps1
+source;share/circle_moving/hook/ament_prefix_path.dsv
+source;share/circle_moving/hook/ament_prefix_path.sh

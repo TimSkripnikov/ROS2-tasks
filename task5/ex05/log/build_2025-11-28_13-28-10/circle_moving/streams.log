@@ -1,0 +1,37 @@
+[0.674s] Invoking command in '/home/artem/Documents/3_course/robotics/task5/ex05/circle_moving': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/circle_moving build --build-base /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build install --record /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/install.log --single-version-externally-managed install_data
+[0.842s] running egg_info
+[0.842s] creating ../build/circle_moving/circle_moving.egg-info
+[0.854s] writing ../build/circle_moving/circle_moving.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../build/circle_moving/circle_moving.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../build/circle_moving/circle_moving.egg-info/entry_points.txt
+[0.854s] writing requirements to ../build/circle_moving/circle_moving.egg-info/requires.txt
+[0.854s] writing top-level names to ../build/circle_moving/circle_moving.egg-info/top_level.txt
+[0.855s] writing manifest file '../build/circle_moving/circle_moving.egg-info/SOURCES.txt'
+[0.877s] reading manifest file '../build/circle_moving/circle_moving.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../build/circle_moving/circle_moving.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.879s] creating /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build
+[0.879s] creating /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib
+[0.879s] creating /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib/circle_moving
+[0.879s] copying circle_moving/__init__.py -> /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib/circle_moving
+[0.879s] copying circle_moving/circle_moving.py -> /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib/circle_moving
+[0.879s] running install
+[0.884s] running install_lib
+[0.896s] creating /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving
+[0.896s] copying /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib/circle_moving/__init__.py -> /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving
+[0.896s] copying /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build/lib/circle_moving/circle_moving.py -> /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving
+[0.897s] byte-compiling /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving/__init__.py to __init__.cpython-312.pyc
+[0.897s] byte-compiling /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving/circle_moving.py to circle_moving.cpython-312.pyc
+[0.897s] running install_data
+[0.898s] creating /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/share/ament_index
+[0.898s] creating /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/share/ament_index/resource_index
+[0.898s] creating /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/share/ament_index/resource_index/packages
+[0.898s] copying resource/circle_moving -> /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/share/ament_index/resource_index/packages
+[0.898s] copying package.xml -> /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/share/circle_moving
+[0.898s] running install_egg_info
+[0.911s] Copying ../build/circle_moving/circle_moving.egg-info to /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages/circle_moving-0.0.0-py3.12.egg-info
+[0.912s] running install_scripts
+[0.990s] Installing circle_moving script to /home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/circle_moving
+[0.990s] writing list of installed files to '/home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/install.log'
+[1.012s] Invoked command in '/home/artem/Documents/3_course/robotics/task5/ex05/circle_moving' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/Documents/3_course/robotics/task5/ex05/install/circle_moving/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/circle_moving build --build-base /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/build install --record /home/artem/Documents/3_course/robotics/task5/ex05/build/circle_moving/install.log --single-version-externally-managed install_data
